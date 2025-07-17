@@ -1,7 +1,7 @@
 [project]
-name = "AI-Creator"
+name = "VideoAgent"
 version = "0.1.0"
-description = "AI Creator Toolkit"
+description = "VideoAgent Toolkit"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
