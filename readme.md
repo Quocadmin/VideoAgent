@@ -19,8 +19,6 @@
 
 <div align="center">
 
-<img src='./assets/cover_16-9.png' />
-
 ### 🔥 **Why VideoAgent?**
 
 | 🧠 **Intelligence** | 🚀 **User-Friendly** | 🎨 **Creativity** |
