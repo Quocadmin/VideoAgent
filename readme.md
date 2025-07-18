@@ -575,12 +575,12 @@ wget https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
   <tr>
     <td align="center">Cross Talk</td>
     <td align="center">English Stand-up Comedy to Chinese Crosstalk</td>
-    <td align="center">CosyVoice, MiniCPM, Whisper, ImageBind, all-MiniLM-L6-v2 </td>
+    <td align="center">CosyVoice, Whisper, ImageBind</td>
   </tr>
   <tr>
     <td align="center">Talk Show</td>
     <td align="center">Chinese Crosstalk to English Stand-up Comedy</td>
-    <td align="center">CosyVoice, MiniCPM, Whisper, ImageBind, all-MiniLM-L6-v2</td>
+    <td align="center">CosyVoice, Whisper, ImageBind</td>
   </tr>
   <tr>
     <td align="center">MAD TTS</td>
@@ -590,22 +590,22 @@ wget https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
   <tr>
     <td align="center">MAD SVC</td>
     <td align="center">AI Music Videos</td>
-    <td align="center">DiffSinger, seed-vc, MiniCPM, Whisper, ImageBind, all-MiniLM-L6-v2</td>
+    <td align="center">DiffSinger, seed-vc, Whisper, ImageBind</td>
   </tr>
   <tr>
     <td align="center">Rhythm</td>
     <td align="center">Spider-Man: Across the Spider-Verse</td>
-    <td align="center">MiniCPM, Whisper, ImageBind, all-MiniLM-L6-v2</td>
+    <td align="center">Whisper, ImageBind</td>
   </tr>
   <tr>
     <td align="center">Comm</td>
     <td align="center">Novel-to-Screen Adaptation</td>  
-    <td align="center">MiniCPM, Whisper, ImageBind, all-MiniLM-L6-v2</td>
+    <td align="center">Whisper, ImageBind</td>
   </tr>
   <tr>
     <td align="center">News</td>
     <td align="center">Tech News: OpenAI's GPT-4o Image Generation Release</td>
-    <td align="center">MiniCPM, Whisper, ImageBind, all-MiniLM-L6-v2</td>
+    <td align="center">Whisper, ImageBind</td>
   </tr>
 </table>
 
