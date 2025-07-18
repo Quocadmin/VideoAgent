@@ -30,25 +30,6 @@
 
 ---
 
-## 📢 Latest Updates
-
-<div align="center">
-
-| Date | 📈 Update | Status |
-|:----:|:----------|:------:|
-| **2025.07** | 📢 Completed comparative experiments, technical details will be released! | 🔄 Will be released |
-| **2025.07** | 📢 Released Understanding & Summarization applications and demos! | ✅ Released |
-| **2025.05** | 🎯 Framework architecture update completed for enhanced modularity! | ✅ Completed |
-| **2025.04.24** | 📢 Enhanced visual perception capabilities for precise character recognition | ✅ Released |
-| **2025.04.14** | 📢 Updated VideoAgent framework implementation and usage documentation! | ✅ Released |
-| **2025.04.08** | 📢 Our demo videos have received **100k+ views** and **19k+ likes**! | 🎉 Milestone |
-| **2025.04.07** | 📢 Released additional demo videos showcasing VideoAgent's diverse capabilities! | ✅ Released |
-| **2025.04.07** | 📢 Released video retrieval implementation supporting all demonstrated functionalities! | ✅ Released |
-| **2025.03.31** | 📢 Released audio processing modules for Generation & Creation capabilities! | ✅ Released |
-
-</div>
-
----
 
 ## 🎯 **System Overview**
 
