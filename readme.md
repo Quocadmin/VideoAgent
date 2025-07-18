@@ -62,6 +62,12 @@ graph TB
 
 ## 🎯 **Core Techniques**
 
+<div align="center">
+
+<img src='./assets/edit_workflow.jpg' />
+
+
+
 ### 🧠 **1. Video Understanding & Summarization**
 
 <div align="center">
