@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src='./assets/logo.png' width=35%/>
+<img src='./assets/logo_new.png' width=35%/>
 
-# Open Agentic Video Intelligence
-
+<!-- # Open Agentic Video Intelligence -->
+<br>
 **🌟 Comprehensive Video Intelligence: Understanding, Clipping, and Creation in One Framework**
 
 <a href='https://space.bilibili.com/3546868449544308'><img src="https://img.shields.io/badge/bilibili-00A1D6.svg?logo=bilibili&logoColor=white" /></a>&nbsp;
