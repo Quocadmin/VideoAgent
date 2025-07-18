@@ -742,7 +742,7 @@ llm:
   claude_api_key: ""  
   claude_base_url: ""
 
-  # Video Editing/Overview/Summarization/QA/Text to Commentary Video
+  # Video Editing/Overview/Summarization/QA/Commentary Video
   gpt_api_key: ""  
   gpt_base_url: ""  
 
