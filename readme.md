@@ -123,12 +123,6 @@ Quickly get a summary of the video transcript content.
 
 <a href="https://www.youtube.com/watch?v=MtYsUdfZPMA&t=26s" target='_blank'><img src="assets/grok4.png" width=60%/></a>
 
-**🌟 Key Features:**
-- Comprehensive analysis of cutting-edge AI model capabilities and benchmarks
-- Extraction of technical specifications and computational infrastructure details
-- Synthesis of performance metrics across academic and practical applications
-- Balanced presentation of advancements alongside limitations and future development roadmaps
-
 📝 **Summarization Demo**:
 ```
 XAI Releases Grok 4 Model: Breakthrough Reasoning Capabilities and Tool Usage
@@ -186,12 +180,6 @@ The release of Grok 4 marks a major advancement in AI technology, demonstrating 
 
 <a href="https://www.youtube.com/watch?v=AVQRnDFZ1Qs" target='_blank'><img src="assets/dune_youtube.png" width=60%/></a>
 
-**🌟 Key Features:**
-- Comprehensive condensation of lengthy interviews into digestible summaries
-- Preservation of key cast insights and character development perspectives
-- Capture of behind-the-scenes production details and actor experiences
-- Highlighting central themes and narrative elements of the event
-
 📝 **Summarization Demo**:
 ```
 In a thrilling exploration of Frank Herbert's "Dune," cast members reflect on the epic journey of bringing this iconic story to life on the big screen. They discuss the immense pressure of portraying Paul Atreides, with Timothy Chalamet sharing his experience of confronting prophecy and the challenges of evolving from a boy to a leader. Zendaya, who plays Chani, emphasizes the importance of finding human connections amidst the vast sci-fi landscape, describing their romantic relationship as one filled with conflict and pain.
@@ -208,11 +196,6 @@ The anticipation builds as the film promises grand action sequences and visually
 Interact with video content through natural language questions and receive precise answers.
 
 ##### 🎬 **1.2.1 *Dune: Part Two Cast Interview***
-
-**🌟 Key Features:**
-- Contextual understanding of video transcription content
-- Handling of both factual and interpretive questions
-- Real-time response generation based on video transcript analysis
 
 📝 **Q&A Demonstration**:
 ```
@@ -264,14 +247,6 @@ Transform movie footage into compelling montages that capture specific themes an
 
 <a href='https://www.bilibili.com/video/BV1C9Z6Y3ESo/' target='_blank'><img src='assets/spiderman_new.jpg' width=60%/></a>
 
-**🌟 Key Features:**
-- Perfect sync between visuals and background music rhythm (eg. 13s, 22s, 25s)
-- Expert capture of high-energy scenes (<1 min) from the full movie (>2 hours)
-- Maintain visual continuity and reduce redundant clips
-- Accurately align the storyboard description of the user prompt (eg. 1st, 2nd sections)
-
-Through intelligent analysis of hours of film footage, VideoAgent automatically identifies **rhythm cues**, **high-energy action scenes**, and **character highlights** to achieve precise editing.
-
 📝 **Prompt**:
 ```
 Begin with Gwen with blonde hair sitting at a dining table in front of a window, followed by her playing drums with pop textures and notes in the background. Include action scenes featuring Miguel O'Hara in his dark blue suit with red accents, sharp red claws and black/red eye lenses, Spider-Gwen in her white and pink suit with hood and ballet shoes, Miles Morales with curly hair and red spider logo on his chest, and The Spot in his black suit covered in white spots using portal powers. Focus on the chase scene in the blue sky with trains, and emphasize quality motion such as web-swinging, fighting, and colorful special effects throughout the sequence.
@@ -292,14 +267,7 @@ Transform written narratives into compelling video content by intelligently matc
 
 </details>
 
-**✨ Key Features:**
-- Transforming novel narratives into visual storytelling by adapting descriptive text into cinematic scenes
-- Automated scene matching that pairs textual descriptions with appropriate visual elements, ensuring narrative coherence
-- Audio generation
-
 <a href="https://www.bilibili.com/video/BV1TmZ6YjEvV/" target='_blank'><img src="assets/joylife_cover.png" width="60%"></a>
-
-We used VideoAgent to generate a video adaptation of the opening chapters from *Joy of Life*. Our agents analyzed the novel's text and automatically created a compelling video sequence by intelligently selecting and arranging relevant scenes from the TV series.
 
 📝 **Prompt:**
 ```
@@ -332,11 +300,6 @@ Original Tech Report
 </td>
 </tr>
 </table>
-
-**🌟 Key Features:**
-- Automated news overview
-- Accurate audio and video clip alignment (eg. 1:00 Generate a comic about relativity, 1:09 Generate a trade card image including the dog Sanji)
-- Audio generation
 
 📝 **Prompt:**
 ```
@@ -386,10 +349,6 @@ Create engaging and viral-worthy meme content by intelligently transforming vide
 - Automatically segments the audio and performs segment-level copywriting adaptation via the Writer Agent
 - Uses the Infer Agent for zero-shot inference on audio segments
 - Aligns and merges audio-visual content automatically with the Combiner Agent
-
-**🌟 Key Features:**
-- Intelligent understanding and transformation of meme concepts
-- Precise audio synthesis and precise scene matching
 
 ##### 🥋 **3.1.1 Master Ma as AI Researcher**
 
@@ -475,10 +434,6 @@ Create comprehensive music videos by generating lyrics, synthesizing vocals, and
 
 <a href='https://www.bilibili.com/video/BV1t8ZCYsEeA/' target='_blank'><img src='assets/airencuoguo_cover.png' width=60%/></a>
 
-**🌟 Key Features:**
-- Automated lyric generation based on themes
-- Intelligent matching of visuals and lyrics
-
 📝 **Prompts**:
 ```
 The song is performed by Patrick Star, focusing on the theme of "the struggles of manuscript submission and dealing with overly critical reviewers", following the original lyrics' sentence structure while replacing specific content. It incorporates elements of reviewer nitpicking (e.g., questioning innovation, demanding redundant experiments) and expresses frustration with lines like "If only I could swap reviewers, this academic fate is too cruel" to highlight the emotional toll of peer review.
@@ -492,11 +447,6 @@ Bridge cultural gaps through comedy by transforming content between different cu
 - Users just need to provide the target cross-talk (comedy dialogue) audio file.
 - Automatically adapts the script based on the provided target audio file.
 - Automatically selects the appropriate vocal tone for voice cloning according to the emotional context of the script.
-
-**🌟 Key Features:**
-- Cultural context adaptation and localization of humor
-- Performance style transformation while preserving core comedic elements
-- Voice generation
 
 ##### 🇺🇸➡️🇨🇳 **3.3.1 English Stand-up Comedy to Chinese Crosstalk**
 
