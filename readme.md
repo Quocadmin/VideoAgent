@@ -23,9 +23,9 @@
 ## 📑 Table of Contents
 
 - [🏗️ System Overview](#system-overview)
+- [🔧 Core Techniques](#core-techniques)
 - [🚀 Quick Start](#quick-start)
 - [🛠️ Development](#development)
-- [🗣️ Text-to-Speech Integration](#text-to-speech-integration)
 - [📚 Examples](#examples)
 - [❓ FAQ](#faq)
 - [📜 License](#license)
@@ -73,7 +73,7 @@ graph TB
 
 ---
 
-## 🎯 **Core Techniques**
+## 🎯Core Techniques
 
 <div align="center">
 
