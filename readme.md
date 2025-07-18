@@ -26,6 +26,7 @@
 - [🔧 Core Techniques](#core-techniques)
 - [🚀 Quick Start](#quick-start)
 - [🛠️ Development](#development)
+- [🗣️ Text-to-Speech Integration](#text-to-speech-integration)
 - [📚 Examples](#examples)
 - [❓ FAQ](#faq)
 - [📜 License](#license)
@@ -73,6 +74,7 @@ graph TB
 
 ---
 
+## 🎯 **Core Techniques**
 ## 🎯Core Techniques
 
 <div align="center">
@@ -80,14 +82,16 @@ graph TB
 <img src='./assets/edit_workflow.png' />
 
 
-</div>
 
 
 
 ### 🧠 **1. Video Understanding & Summarization**
 
+<div align="center">
+
 **🚀 Transform videos into structured insights and intelligent summaries**
 
+</div>
 
 This module leverages advanced multi-modal understanding to extract meaningful information from video content and generate comprehensive textual descriptions. By analyzing visual scenes, audio content, and temporal dynamics, VideoAgent produces accurate and contextual summaries.
 
@@ -102,12 +106,15 @@ This module leverages advanced multi-modal understanding to extract meaningful i
 
 #### ✨ **Key Features:**
 
+<div align="center">
+
 | Feature | Description |
 |:--------|:------------|
 | 🎥 **Multi-modal Analysis** | Combining visual and audio understanding |
 | 🔊 **Transcription-based Q&A** | Interactive Q&A with video events |
 | 🎚️ **Customizable Output** | Adjustable summarization depth and focus |
 
+</div>
 
 #### 🔮 **1.1 Video Summarization**
 
