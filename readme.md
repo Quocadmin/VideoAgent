@@ -188,7 +188,7 @@ Grok 4的发布标志着AI技术的重大进步，展示了XAI在推动通用人
 
 ##### 🎬 **1.1.2 *Dune: Part Two Cast Interview***
 
-<a href="https://www.youtube.com/watch?v=AVQRnDFZ1Qs" target='_blank'><img src="assets/dune_news_cover.png" width=60%/></a>
+<a href="https://www.youtube.com/watch?v=AVQRnDFZ1Qs" target='_blank'><img src="assets/dune_youtube.png" width=60%/></a>
 
 **🌟 Key Features:**
 - Comprehensive condensation of lengthy interviews into digestible summaries
