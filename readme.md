@@ -86,8 +86,6 @@ graph TB
 
 ### 🧠 **1. Video Understanding & Summarization**
 
-<div align="center">
-
 **🚀 Transform videos into structured insights and intelligent summaries**
 
 </div>
