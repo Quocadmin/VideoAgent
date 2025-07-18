@@ -278,49 +278,6 @@ Through intelligent analysis of hours of film footage, VideoAgent automatically 
 Begin with Gwen with blonde hair sitting at a dining table in front of a window, followed by her playing drums with pop textures and notes in the background. Include action scenes featuring Miguel O'Hara in his dark blue suit with red accents, sharp red claws and black/red eye lenses, Spider-Gwen in her white and pink suit with hood and ballet shoes, Miles Morales with curly hair and red spider logo on his chest, and The Spot in his black suit covered in white spots using portal powers. Focus on the chase scene in the blue sky with trains, and emphasize quality motion such as web-swinging, fighting, and colorful special effects throughout the sequence.
 ```
 
-##### 🌌 **2.1.2 *Interstellar***
-
-<a href='https://www.bilibili.com/video/BV1yQZ6YkEkw/' target='_blank'><img src='assets/interstella_cover_love.png' width=45%/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href='https://www.bilibili.com/video/BV1koZ6YuEeL/' target='_blank'><img src='assets/interstella_cover.png' width=45%/></a>
-
-**🌟 Key Features:**
-- For the same input video, edit different styles by adapting your prompts
-
-We showcase two distinct edits of *Interstellar* created using VideoAgent. The first version focuses on the theme "love transcending space and time," while the second emphasizes humanity's courage in space exploration. Both edits demonstrate how different prompts can shape the narrative and emotional impact of the same source material.
-
-📝 **Prompt**:
-```
-Version 1:
-Love can transcend time and space.
-```
-```
-Version 2:
-Celebrate humanity's courage in space exploration. Include scenes featuring spaceships, wormholes, black holes, space station docking maneuvers, ocean planets, and glacial worlds. Show astronauts in their distinctive white spacesuits as they venture into the unknown, highlighting mankind's relentless drive to explore the cosmos.
-```
-
-##### ⚔️ **2.1.3 *Nezha***
-
-<a href='https://www.bilibili.com/video/BV1NQZ6YCEPH/' target='_blank'><img src='assets/nezha_cover.png' width=60%/></a>
-
-**🌟 Key Features:**
-- Capturing scenes of conflicts and battles
-
-📝 **Prompt:**
-```
-Capture more scenes of conflicts and battles between Nezha and Shen Gongbao (black-robed), Dragon Prince Ao Bing (blue-robed).
-```
-
-##### 💕 **2.1.4 *Titanic***
-
-<a href='https://www.bilibili.com/video/BV12mZ6YLEXJ/' target='_blank'><img src='assets/titanic_cover.png' width=60%/></a>
-
-**🌟 Key Features:**
-- Understanding of romantic scenes
-
-📝 **Prompt:**
-```
-A romantic and sweet love story about Jack and Rose meeting on the Titanic. It cannot include the part where the ship is in distress, nor the night scene. In the first section, Rose, wearing a purple hat and a white shirt, walks out of a white car with a purple umbrella, looking thoughtfully.
-```
 
 #### 📚 **2.2 Novel-to-Screen Adaptation**
 
@@ -389,30 +346,6 @@ Original Tech Report
 Short tech news, colloquial expression within 250 words, check the accuracy of key terms, e.g. the GPT model name should be 4o instead of 4.0
 ```
 
-##### 🏜️ **2.3.2 Dune 2 Movie Cast Update Podcast**
-
-<table>
-<tr>
-<td align="center" width="50%">
-<a href="https://www.bilibili.com/video/BV1m1Z6Y2Erb/" target='_blank'><img src="assets/dune_news_cover.png" width="100%"></a>
-Podcast Overview About <i>Dune</i> 2 Cast
-</td>
-<td align="center" width="50%">
-<a href="https://www.youtube.com/watch?v=AVQRnDFZ1Qs" target='_blank'><img src="assets/dune_original_cover.png" width="100%"></a>
-Original Podcast with <i>Dune</i> 2 Cast
-</td>
-</tr>
-</table>
-
-**🌟 Key Features:**
-- Automated podcast overview
-- Accurate character identification and video alignment (eg. 00:13 Timothée Chalamet, 00:28 Zendaya, 00:38 Romance, 00:47 Florence Pugh, 00:56 Austin Butler, 01:06 Javier Bardem)
-- Context-aware content curation
-
-📝 **Prompt:**
-```
-Short movie podcast, colloquial expression within 300 words, notice to identify which actor or host is talking, don't mention movie tickets available issue.
-```
 
 ---
 
