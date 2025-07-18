@@ -116,9 +116,79 @@ This module leverages advanced multi-modal understanding to extract meaningful i
 
 Quickly get a summary of the video transcript content.
 
-##### 🎬 **1.1.1 *Dune: Part Two Cast Interview***
 
-<a href="https://www.youtube.com/watch?v=AVQRnDFZ1Qs" target='_blank'><img src="assets/dune_original_cover.png" width=60%/></a>
+##### 🎬 **1.1.1 *Grok 4 Released***
+
+<a href="https://www.youtube.com/watch?v=MtYsUdfZPMA&t=26s" target='_blank'><img src="assets/dune_news_cover.png" width=60%/></a>
+
+**🌟 Key Features:**
+- Comprehensive analysis of cutting-edge AI model capabilities and benchmarks
+- Extraction of technical specifications and computational infrastructure details
+- Synthesis of performance metrics across academic and practical applications
+- Balanced presentation of advancements alongside limitations and future development roadmaps
+
+📝 **Output Summarization**:
+```
+# XAI发布Grok 4模型：突破性的推理能力与工具使用
+
+XAI公司最新发布的Grok 4模型展现了惊人的推理能力和智能水平，相比前代产品有显著提升。该模型在学术和实际应用方面都展现出超越人类专家的能力，尤其在推理和工具使用方面取得了突破性进展。
+
+## 训练规模与计算能力
+
+Grok 4的训练规模较Grok 2增加了约100倍，利用了XAI的Colossus超级计算机，配备了200,000个GPU。与Grok 3相比，Grok 4在强化学习方面投入了10倍的计算资源，这使其推理能力得到显著提升。正如XAI团队所述："从Grok 3到Grok 4，我们实际上在推理和强化学习方面投入了大量计算资源。"
+
+## 学术能力表现
+
+Grok 4在各类学术基准测试中表现卓越：
+
+1. 在"人文学科最终考试"(Humanities Last Exam)这一极具挑战性的基准测试中，Grok 4解决了约40%的问题，而Grok 4 Heavy(多智能体版本)解决了近50%的问题。这些问题涵盖数学、自然科学、工程学和人文学科，难度达到博士后研究水平。
+
+2. 在美国数学奥林匹克竞赛(USAMO)、哈佛-MIT数学竞赛(HMMT)等多个权威数学竞赛中，Grok 4 Heavy获得了满分。
+
+3. 在ArcAGI v2基准测试中，Grok 4达到了15.8%的准确率，是第二名的两倍，成为三个月内唯一突破10%准确率的模型。
+
+## 推理与工具使用能力
+
+Grok 4最显著的进步在于其推理能力和工具使用能力：
+
+1. 工具使用：与Grok 3不同，Grok 4在训练过程中就整合了工具使用能力，而不仅仅依赖泛化。这使其能够更可靠地使用各种工具解决复杂问题。
+
+2. 多智能体协作：Grok 4 Heavy版本能够同时运行多个智能体，它们独立工作后比较结果，类似于"学习小组"，共同得出最佳答案。
+
+3. 搜索与研究能力：Grok 4能够搜索互联网，收集信息，并进行深入分析，如在演示中展示的对X平台数据的分析和体育赛事预测。
+
+## 实际应用价值
+
+Grok 4在实际应用中展现出巨大潜力：
+
+1. 商业决策：在VendingBench商业模拟中，Grok 4实现了比其他顶级模型高出两倍的净资产，展示了其长期规划和战略执行能力。
+
+2. 科学研究：Arc研究所已经开始使用Grok 4来自动化CRISPR研究流程，帮助科学家从数百万实验日志中筛选最佳假设。
+
+3. 游戏开发：开发者能够利用Grok 4在短短几小时内创建完整的游戏，包括自动化资源收集和游戏逻辑编写。
+
+## 局限与未来发展
+
+尽管Grok 4表现出色，但仍存在一些局限：
+
+1. 多模态能力较弱：Grok 4在图像理解和生成方面仍有不足，XAI团队正在训练第7版基础模型来解决这一问题。
+
+2. 数据瓶颈：随着模型变得越来越智能，找到具有挑战性的问题和可靠的反馈信号变得越来越困难。
+
+未来发展方向包括：
+
+1. 专门的编码模型：团队正在开发既快速又智能的专用编码模型，预计将在几周内推出。
+
+2. 多模态能力提升：下一代预训练模型将在图像、视频和音频理解方面有显著提升。
+
+3. 视频生成：XAI计划在未来3-4周内开始训练视频模型，使用超过100,000个GB200 GPU。
+
+Grok 4的发布标志着AI技术的重大进步，展示了XAI在推动通用人工智能发展方面的雄心。正如团队所言："我们正处于智能大爆炸的开始，这是人类历史上最有趣的时期。"
+```
+
+##### 🎬 **1.1.2 *Dune: Part Two Cast Interview***
+
+<a href="https://www.youtube.com/watch?v=AVQRnDFZ1Qs" target='_blank'><img src="assets/dune_news_cover.png" width=60%/></a>
 
 **🌟 Key Features:**
 - Comprehensive condensation of lengthy interviews into digestible summaries
@@ -144,7 +214,7 @@ Interact with video content through natural language questions and receive preci
 ##### 🎬 **1.2.1 *Dune: Part Two Cast Interview***
 
 **🌟 Key Features:**
-- Contextual understanding of video content
+- Contextual understanding of video transcription content
 - Handling of both factual and interpretive questions
 - Real-time response generation based on video transcript analysis
 
