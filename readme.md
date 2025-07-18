@@ -74,7 +74,6 @@ graph TB
 
 ---
 
-## 🎯 **Core Techniques**
 ## 🎯Core Techniques
 
 <div align="center">
