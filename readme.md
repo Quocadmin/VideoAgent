@@ -751,10 +751,6 @@ llm:
   gemini_base_url: ""  
 ```
 
-Model names may vary depending on the LLM base URL.
-The correct model names must be specified in `environment/config/llm.py`.
-For direct APIs that support only a single model (e.g., the official GPT series), all model names should be replaced with the corresponding supported model (e.g., `gpt-4o-mini`)
-
 #### 🎛️ **Input Configuration**
 
 ```bash
