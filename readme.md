@@ -703,17 +703,17 @@ wget https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
     <td align="center">DiffSinger, seed-vc, Whisper, ImageBind</td>
   </tr>
   <tr>
-    <td align="center">Rhythm-based Video Editing</td>
+    <td align="center">Rhythm</td>
     <td align="center">Spider-Man: Across the Spider-Verse</td>
     <td align="center">Whisper, ImageBind</td>
   </tr>
   <tr>
-    <td align="center">Commentary Video</td>
+    <td align="center">Comm</td>
     <td align="center">Novel-to-Screen Adaptation</td>  
     <td align="center">CosyVoice, Whisper, ImageBind</td>
   </tr>
   <tr>
-    <td align="center">Video Overview</td>
+    <td align="center">News</td>
     <td align="center">Tech News: OpenAI's GPT-4o Image Generation Release</td>
     <td align="center">CosyVoice, Whisper, ImageBind</td>
   </tr>
