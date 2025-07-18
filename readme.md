@@ -94,8 +94,7 @@ This module leverages advanced multi-modal understanding to extract meaningful i
 <details>
 <summary><b>🔧 How VideoAgent Processes Video Understanding</b></summary>
 
-- 📥 **Input Processing**: Accept video files of various formats and lengths
-- 🔍 **Feature Extraction**: Automatically extract and analyze visual, audio, and temporal features  
+- 🔍 **Audio Extraction**: Automatically extract audio features  
 - 📊 **Content Analysis**: Generate structured summaries based on comprehensive content analysis
 - 🎛️ **Customization**: Support customizable output formats and detail levels
 
@@ -107,9 +106,8 @@ This module leverages advanced multi-modal understanding to extract meaningful i
 
 | Feature | Description |
 |:--------|:------------|
-| 🎥🔊 **Multi-modal Analysis** | Combining visual and audio understanding |
-| ⏱️ **Temporal Recognition** | Narrative structure and sequence analysis |
-| 👤 **Character Identification** | Object and character recognition with context |
+| 🎥 **Multi-modal Analysis** | Combining visual and audio understanding |
+| 🔊 **Transcription-based Q&A** | Interactive Q&A with video events |
 | 🎚️ **Customizable Output** | Adjustable summarization depth and focus |
 
 </div>
@@ -251,7 +249,7 @@ Write fluent commentary script with 1500 words.
 Transform lengthy interviews and news event into concise, engaging video summaries with accurate information extraction.
 
 <details>
-<summary><b>🔧 How VideoAgent Creates News Summaries</b></summary>
+<summary><b>🔧 How VideoAgent Creates Video Overview</b></summary>
 
 - 📰 **Content Processing**: Accept interview/news source files for summarization
 - 🎤 **Transcription**: Automatically transcribe and extract key information
@@ -276,7 +274,7 @@ Original Tech Report
 </table>
 
 **🌟 Key Features:**
-- Automated news content summarization
+- Automated news overview
 - Accurate audio and video clip alignment (eg. 1:00 Generate a comic about relativity, 1:09 Generate a trade card image including the dog Sanji)
 - Audio generation
 
@@ -285,7 +283,7 @@ Original Tech Report
 Short tech news, colloquial expression within 250 words, check the accuracy of key terms, e.g. the GPT model name should be 4o instead of 4.0
 ```
 
-##### 🏜️ **2.3.2 Dune 2 Movie Cast Update Interview**
+##### 🏜️ **2.3.2 Dune 2 Movie Cast Update Podcast**
 
 <table>
 <tr>
@@ -301,7 +299,7 @@ Original Podcast with <i>Dune</i> 2 Cast
 </table>
 
 **🌟 Key Features:**
-- Automated podcast content summarization
+- Automated podcast overview
 - Accurate character identification and video alignment (eg. 00:13 Timothée Chalamet, 00:28 Zendaya, 00:38 Romance, 00:47 Florence Pugh, 00:56 Austin Butler, 01:06 Javier Bardem)
 - Context-aware content curation
 
