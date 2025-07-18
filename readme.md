@@ -64,7 +64,7 @@ graph TB
 
 <div align="center">
 
-<img src='./assets/edit_workflow.jpg' />
+<img src='./assets/edit_workflow.png' />
 
 
 
