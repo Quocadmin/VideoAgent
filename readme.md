@@ -1,12 +1,13 @@
 <div align="center">
 
+<img src='./assets/logo.png' width=35%/>
+
 # 🎬 VideoAgent: Multi-Modal Agents for Video Processing
 
 **🌟 Comprehensive Video Intelligence: Understanding, Clipping, and Creation in One Framework**
 
 <a href='https://space.bilibili.com/3546868449544308'><img src="https://img.shields.io/badge/bilibili-00A1D6.svg?logo=bilibili&logoColor=white" /></a>&nbsp;
 <a href='https://www.youtube.com/@AI-Creator-is-here'><img src='https://badges.aleen42.com/src/youtube.svg' /></a>&nbsp;
-<img src="https://badges.pufler.dev/visits/hkuds/videoagent?style=flat-square&logo=github">&nbsp;
 <img src='https://img.shields.io/github/stars/hkuds/videoagent' />
 
 </div>
@@ -54,7 +55,8 @@
 
 <div align="center">
 
-<img src='./assets/framework.pdf' />
+<img src='./assets/framework.png' />
+
 
 ```mermaid
 graph TB
