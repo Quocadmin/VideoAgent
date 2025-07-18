@@ -56,7 +56,7 @@
 
 <div align="center">
 
-<img src='./assets/framework.png' />
+<img src='./assets/framework.jpg' />
 
 
 ```mermaid
