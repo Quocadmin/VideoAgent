@@ -2,7 +2,7 @@
 
 <img src='./assets/logo.png' width=35%/>
 
-# 🎬 VideoAgent: Multi-Modal Agents for Video Processing
+# 🎬 VideoAgent: Open Agentic Video Intelligence
 
 **🌟 Comprehensive Video Intelligence: Understanding, Clipping, and Creation in One Framework**
 
