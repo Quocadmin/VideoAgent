@@ -127,7 +127,7 @@ Quickly get a summary of the video transcript content.
 - Synthesis of performance metrics across academic and practical applications
 - Balanced presentation of advancements alongside limitations and future development roadmaps
 
-📝 **Output Summarization(Chinese version)**:
+📝 **Summarization Demo(Chinese version)**:
 ```
 # XAI发布Grok 4模型：突破性的推理能力与工具使用
 
@@ -196,7 +196,7 @@ Grok 4的发布标志着AI技术的重大进步，展示了XAI在推动通用人
 - Capture of behind-the-scenes production details and actor experiences
 - Highlighting central themes and narrative elements of the event
 
-📝 **Output Summarization**:
+📝 **Summarization Demo**:
 ```
 In a thrilling exploration of Frank Herbert's "Dune," cast members reflect on the epic journey of bringing this iconic story to life on the big screen. They discuss the immense pressure of portraying Paul Atreides, with Timothy Chalamet sharing his experience of confronting prophecy and the challenges of evolving from a boy to a leader. Zendaya, who plays Chani, emphasizes the importance of finding human connections amidst the vast sci-fi landscape, describing their romantic relationship as one filled with conflict and pain.
 
