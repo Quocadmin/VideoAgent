@@ -129,61 +129,55 @@ Quickly get a summary of the video transcript content.
 
 📝 **Summarization Demo(Chinese version)**:
 ```
-# XAI发布Grok 4模型：突破性的推理能力与工具使用
+XAI Releases Grok 4 Model: Breakthrough Reasoning Capabilities and Tool Usage
+XAI's newly released Grok 4 model demonstrates remarkable reasoning abilities and intelligence levels, showing significant improvements over previous generations. The model exhibits capabilities that surpass human experts in both academic and practical applications, particularly achieving breakthrough progress in reasoning and tool usage.
 
-XAI公司最新发布的Grok 4模型展现了惊人的推理能力和智能水平，相比前代产品有显著提升。该模型在学术和实际应用方面都展现出超越人类专家的能力，尤其在推理和工具使用方面取得了突破性进展。
+Training Scale and Computational Power
+Grok 4's training scale increased approximately 100-fold compared to Grok 2, utilizing XAI's Colossus supercomputer equipped with 200,000 GPUs. Compared to Grok 3, Grok 4 invested 10 times more computational resources in reinforcement learning, significantly enhancing its reasoning capabilities. As the XAI team states: "From Grok 3 to Grok 4, we actually invested massive computational resources in reasoning and reinforcement learning."
 
-## 训练规模与计算能力
+Academic Performance
+Grok 4 demonstrates exceptional performance across various academic benchmarks:
 
-Grok 4的训练规模较Grok 2增加了约100倍，利用了XAI的Colossus超级计算机，配备了200,000个GPU。与Grok 3相比，Grok 4在强化学习方面投入了10倍的计算资源，这使其推理能力得到显著提升。正如XAI团队所述："从Grok 3到Grok 4，我们实际上在推理和强化学习方面投入了大量计算资源。"
+On the highly challenging "Humanities Last Exam" benchmark test, Grok 4 solved approximately 40% of problems, while Grok 4 Heavy (multi-agent version) solved nearly 50%. These problems span mathematics, natural sciences, engineering, and humanities at postdoctoral research difficulty levels.
 
-## 学术能力表现
+In multiple authoritative mathematics competitions including the USA Mathematical Olympiad (USAMO) and Harvard-MIT Mathematics Tournament (HMMT), Grok 4 Heavy achieved perfect scores.
 
-Grok 4在各类学术基准测试中表现卓越：
+On the ArcAGI v2 benchmark test, Grok 4 reached 15.8% accuracy—double that of the second-place model and the only model to break the 10% accuracy threshold in three months.
 
-1. 在"人文学科最终考试"(Humanities Last Exam)这一极具挑战性的基准测试中，Grok 4解决了约40%的问题，而Grok 4 Heavy(多智能体版本)解决了近50%的问题。这些问题涵盖数学、自然科学、工程学和人文学科，难度达到博士后研究水平。
+Reasoning and Tool Usage Capabilities
+Grok 4's most significant advancement lies in its reasoning and tool usage abilities:
 
-2. 在美国数学奥林匹克竞赛(USAMO)、哈佛-MIT数学竞赛(HMMT)等多个权威数学竞赛中，Grok 4 Heavy获得了满分。
+Tool Usage: Unlike Grok 3, Grok 4 integrated tool usage capabilities during training rather than relying solely on generalization. This enables more reliable use of various tools to solve complex problems.
 
-3. 在ArcAGI v2基准测试中，Grok 4达到了15.8%的准确率，是第二名的两倍，成为三个月内唯一突破10%准确率的模型。
+Multi-Agent Collaboration: The Grok 4 Heavy version can run multiple agents simultaneously that work independently before comparing results, similar to a "study group" collaborating to reach optimal answers.
 
-## 推理与工具使用能力
+Search and Research Capabilities: Grok 4 can search the internet, gather information, and conduct in-depth analysis, as demonstrated in its analysis of X platform data and sports event predictions.
 
-Grok 4最显著的进步在于其推理能力和工具使用能力：
+Practical Application Value
+Grok 4 shows tremendous potential in real-world applications:
 
-1. 工具使用：与Grok 3不同，Grok 4在训练过程中就整合了工具使用能力，而不仅仅依赖泛化。这使其能够更可靠地使用各种工具解决复杂问题。
+Business Decisions: In VendingBench business simulations, Grok 4 achieved net assets twice as high as other top models, demonstrating superior long-term planning and strategic execution capabilities.
 
-2. 多智能体协作：Grok 4 Heavy版本能够同时运行多个智能体，它们独立工作后比较结果，类似于"学习小组"，共同得出最佳答案。
+Scientific Research: Arc Research Institute has begun using Grok 4 to automate CRISPR research workflows, helping scientists filter optimal hypotheses from millions of experimental logs.
 
-3. 搜索与研究能力：Grok 4能够搜索互联网，收集信息，并进行深入分析，如在演示中展示的对X平台数据的分析和体育赛事预测。
+Game Development: Developers can utilize Grok 4 to create complete games in just a few hours, including automated resource collection and game logic programming.
 
-## 实际应用价值
+Limitations and Future Development
+Despite Grok 4's excellent performance, some limitations remain:
 
-Grok 4在实际应用中展现出巨大潜力：
+Weak Multimodal Capabilities: Grok 4 still has shortcomings in image understanding and generation. The XAI team is training a 7th version base model to address this issue.
 
-1. 商业决策：在VendingBench商业模拟中，Grok 4实现了比其他顶级模型高出两倍的净资产，展示了其长期规划和战略执行能力。
+Data Bottleneck: As models become increasingly intelligent, finding challenging problems and reliable feedback signals becomes increasingly difficult.
 
-2. 科学研究：Arc研究所已经开始使用Grok 4来自动化CRISPR研究流程，帮助科学家从数百万实验日志中筛选最佳假设。
+Future development directions include:
 
-3. 游戏开发：开发者能够利用Grok 4在短短几小时内创建完整的游戏，包括自动化资源收集和游戏逻辑编写。
+Specialized Coding Models: The team is developing dedicated coding models that are both fast and intelligent, expected to launch within weeks.
 
-## 局限与未来发展
+Enhanced Multimodal Capabilities: The next-generation pre-training model will show significant improvements in image, video, and audio understanding.
 
-尽管Grok 4表现出色，但仍存在一些局限：
+Video Generation: XAI plans to begin training video models within the next 3-4 weeks, using over 100,000 GB200 GPUs.
 
-1. 多模态能力较弱：Grok 4在图像理解和生成方面仍有不足，XAI团队正在训练第7版基础模型来解决这一问题。
-
-2. 数据瓶颈：随着模型变得越来越智能，找到具有挑战性的问题和可靠的反馈信号变得越来越困难。
-
-未来发展方向包括：
-
-1. 专门的编码模型：团队正在开发既快速又智能的专用编码模型，预计将在几周内推出。
-
-2. 多模态能力提升：下一代预训练模型将在图像、视频和音频理解方面有显著提升。
-
-3. 视频生成：XAI计划在未来3-4周内开始训练视频模型，使用超过100,000个GB200 GPU。
-
-Grok 4的发布标志着AI技术的重大进步，展示了XAI在推动通用人工智能发展方面的雄心。正如团队所言："我们正处于智能大爆炸的开始，这是人类历史上最有趣的时期。"
+The release of Grok 4 marks a major advancement in AI technology, demonstrating XAI's ambition in advancing artificial general intelligence. As the team states: "We are at the beginning of an intelligence explosion—this is the most interesting period in human history."
 ```
 
 ##### 🎬 **1.1.2 *Dune: Part Two Cast Interview***
