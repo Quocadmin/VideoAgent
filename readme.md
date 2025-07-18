@@ -475,7 +475,7 @@ Original Chinese Crosstalk Segment
 
 ---
 
-## 🛠️ **Quick Start**
+## 🚀Quick Start
 
 ### 📥 **Clone and Install**
 
