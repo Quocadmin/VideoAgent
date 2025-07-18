@@ -710,12 +710,12 @@ wget https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
   <tr>
     <td align="center">Commentary Video</td>
     <td align="center">Novel-to-Screen Adaptation</td>  
-    <td align="center">Whisper, ImageBind</td>
+    <td align="center">CosyVoice, Whisper, ImageBind</td>
   </tr>
   <tr>
     <td align="center">Video Overview</td>
     <td align="center">Tech News: OpenAI's GPT-4o Image Generation Release</td>
-    <td align="center">Whisper, ImageBind</td>
+    <td align="center">CosyVoice, Whisper, ImageBind</td>
   </tr>
   <tr>
     <td align="center">Video QA/Summarization</td>
