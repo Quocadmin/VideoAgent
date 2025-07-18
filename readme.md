@@ -50,7 +50,7 @@
 
 ---
 
-## 🎯 **Core Capabilities**
+## 🎯 **System Overview**
 
 <div align="center">
 
@@ -78,6 +78,8 @@ graph TB
 </div>
 
 ---
+
+## 🎯 **Core Techniques**
 
 ### 🧠 **1. Video Understanding & Summarization**
 
