@@ -112,18 +112,22 @@ This module leverages advanced multi-modal understanding to extract meaningful i
 
 </div>
 #### 🔮 **1.1 Video Summarization**
+
 Quickly get a summary of the video transcript content.
 
-<table>
-<tr>
-<td align="center" width="50%">
-<a href="https://www.youtube.com/watch?v=AVQRnDFZ1Qs" target='_blank'><img src="assets/dune_original_cover.png" width="100%"></a>
-Original Podcast with <i>Dune</i> 2 Cast
-</td>
-</tr>
-</table>**
+##### 🎬 **1.1.1 *Dune: Part Two Cast Interview***
 
-📝 ** Output Summarization**:
+<a href="https://www.youtube.com/watch?v=AVQRnDFZ1Qs" target='_blank'><img src="assets/dune_original_cover.png" width=60%/></a>
+
+**🌟 Key Features:**
+- Comprehensive condensation of lengthy interviews into digestible summaries
+- Preservation of key cast insights and character development perspectives
+- Capture of behind-the-scenes production details and actor experiences
+- Highlighting central themes and narrative elements of the film
+
+Through advanced natural language processing, VideoAgent automatically identifies **key discussions**, **emotional moments**, and **production insights** to create meaningful summaries.
+
+📝 **Output Summarization**:
 ```
 In a thrilling exploration of Frank Herbert's "Dune," cast members reflect on the epic journey of bringing this iconic story to life on the big screen. They discuss the immense pressure of portraying Paul Atreides, with Timothy Chalamet sharing his experience of confronting prophecy and the challenges of evolving from a boy to a leader. Zendaya, who plays Chani, emphasizes the importance of finding human connections amidst the vast sci-fi landscape, describing their romantic relationship as one filled with conflict and pain.
 
