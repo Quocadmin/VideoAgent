@@ -751,28 +751,13 @@ llm:
   gemini_base_url: ""  
 ```
 
-#### 🎛️ **Input Configuration**
-
-```bash
-# Configure the input of cross talk videos in advance (rhythm_agent/news_agent/comm_agent/cross_talk/mad_svc/mad_tts).yml files
-# eg. VideoAgent\environment\config\cross_talk.yml
-cross_talk:
-  reqs: 'Generate a Chinese crosstalk (Xiangsheng) script. The story should be based on objectively existing situations, set against a Chinese background, avoiding examples from other countries. The script should be approximately 40-50 sentences long.'
-  audio_path: 'dataset/cross_talk/英文脱口秀1.wav'
-  dou_gen: 'dataset/cross_talk/郭德纲'
-  peng_gen: 'dataset/cross_talk/付航'
-  output: "dataset/user_output_video/cross_talk_video.mp4"
-  video_source_dir: "dataset/user_video/"
-```
-
-
 ### 🚀 **Usage**
 
 ```bash
 # With the configuration now complete, proceed to run the following instructions:
 python main.py
 # The console will output:
-# Please describe the type of video you would like to produce:
+User Requirement: ...
 ```
 
 ---
