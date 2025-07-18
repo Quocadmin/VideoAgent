@@ -65,8 +65,8 @@ graph TB
     A --> C[✂️ Assembly & Clipping]
     A --> D[🎨 Generation & Creation]
     
-    B --> B1[Content Content Q&A]
-    B --> B2[Content Summarization]
+    B --> B1[Video Q&A]
+    B --> B2[Video Summarization]
     
     C --> C1[Movie Edits]
     C --> C2[Novel Adaptation]
