@@ -114,7 +114,7 @@ Quickly get a summary of the video transcript content.
 - Synthesis of performance metrics across academic and practical applications
 - Balanced presentation of advancements alongside limitations and future development roadmaps
 
-📝 **Summarization Demo(Chinese version)**:
+📝 **Summarization Demo**:
 ```
 XAI Releases Grok 4 Model: Breakthrough Reasoning Capabilities and Tool Usage
 XAI's newly released Grok 4 model demonstrates remarkable reasoning abilities and intelligence levels, showing significant improvements over previous generations. The model exhibits capabilities that surpass human experts in both academic and practical applications, particularly achieving breakthrough progress in reasoning and tool usage.
