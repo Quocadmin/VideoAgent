@@ -137,7 +137,26 @@ Florence Pugh introduces her character, Princess Rulan, revealing her calculated
 The anticipation builds as the film promises grand action sequences and visually stunning scenes, compelling audiences to experience it on the big screen. Ultimately, the narrative weaves together themes of prophecy, love, and personal sacrifice, illustrating how these characters navigate fate and duty in their quest for identity and belonging.
 ```
 
-> *Coming Soon: Comprehensive video analysis demonstrations showcasing intelligent content understanding and automated summarization capabilities.*
+#### 🔍 **1.2 Video Q&A**
+
+Interact with video content through natural language questions and receive precise answers.
+
+##### 🎬 **1.2.1 *Dune: Part Two Cast Interview***
+
+**🌟 Key Features:**
+- Contextual understanding of video content
+- Handling of both factual and interpretive questions
+- Real-time response generation based on video transcript analysis
+
+📝 **Q&A Demonstration**:
+```
+Q: How many times have editors rejected the novel?
+A: The novel was rejected 22 times by editors who thought it was too complex. This information can be found in the transcript around the first sentence.
+
+Q: Where can I buy tickets?
+A: You can buy tickets to Dune Part 2 on Fandango.com. This information is mentioned at the end of the transcript.
+```
+
 
 ---
 
