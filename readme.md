@@ -111,7 +111,9 @@ This module leverages advanced multi-modal understanding to extract meaningful i
 | 🎚️ **Customizable Output** | Adjustable summarization depth and focus |
 
 </div>
-##### 🔮 **1.1.1 Dune 2 Movie Cast Update Podcast Summarization**
+#### 🔮 **1.1 Video Summarization**
+Quickly get a summary of the video transcript content.
+
 <table>
 <tr>
 <td align="center" width="50%">
@@ -121,7 +123,7 @@ Original Podcast with <i>Dune</i> 2 Cast
 </tr>
 </table>**
 
-📝 **Summarization**:
+📝 ** Output Summarization**:
 ```
 In a thrilling exploration of Frank Herbert's "Dune," cast members reflect on the epic journey of bringing this iconic story to life on the big screen. They discuss the immense pressure of portraying Paul Atreides, with Timothy Chalamet sharing his experience of confronting prophecy and the challenges of evolving from a boy to a leader. Zendaya, who plays Chani, emphasizes the importance of finding human connections amidst the vast sci-fi landscape, describing their romantic relationship as one filled with conflict and pain.
 
