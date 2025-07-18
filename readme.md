@@ -19,6 +19,19 @@
 
 <div align="center">
 
+
+## 📑 Table of Contents
+
+- [🏗️ Architecture](#architecture)
+- [🚀 Quick Start](#quick-start)
+- [🛠️ Development](#development)
+- [🗣️ Text-to-Speech Integration](#text-to-speech-integration)
+- [📚 Examples](#examples)
+- [❓ FAQ](#faq)
+- [📜 License](#license)
+- [💖 Acknowledgments](#acknowledgments)
+
+
 ### 🔥 **Why VideoAgent?**
 
 | 🧠 **Intelligence** | 🚀 **User-Friendly** | 🎨 **Creativity** |
@@ -65,6 +78,8 @@ graph TB
 <div align="center">
 
 <img src='./assets/edit_workflow.png' />
+
+
 
 
 
