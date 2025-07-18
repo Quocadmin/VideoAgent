@@ -475,7 +475,7 @@ Original Chinese Crosstalk Segment
 
 ---
 
-## 🛠️ **Installation and Setup**
+## 🛠️ **Quick Start**
 
 ### 📥 **Clone and Install**
 
@@ -585,9 +585,7 @@ wget https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
 
 </div>
 
-### ⚙️ **Configuration**
-
-#### 🤖 **LLM Configuration**
+### 🤖 **LLM Configuration**
 
 ```bash
 # VideoAgent\environment\config\config.yml 
