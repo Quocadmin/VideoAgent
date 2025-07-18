@@ -591,7 +591,7 @@ wget https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
     <td align="center">DiffSinger, seed-vc, Whisper, ImageBind</td>
   </tr>
   <tr>
-    <td align="center">Rhythm-based Video Edits</td>
+    <td align="center">Rhythm-based Video Editing</td>
     <td align="center">Spider-Man: Across the Spider-Verse</td>
     <td align="center">Whisper, ImageBind</td>
   </tr>
@@ -607,7 +607,7 @@ wget https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
   </tr>
   <tr>
     <td align="center">Video QA/Summarization</td>
-    <td align="center">Grok 4 released/td>
+    <td align="center">Dune 2 Movie Cast Update Podcast</td>
     <td align="center">Whisper</td>
   </tr>
 </table>
