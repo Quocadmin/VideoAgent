@@ -630,11 +630,6 @@ pip install -r requirements.txt
 ### 📦 **Model Download**
 
 ```bash
-# Make sure git-lfs is installed (https://git-lfs.com)
-git lfs install
-```
-
-```bash
 # Download CosyVoice
 cd tools/CosyVoice
 huggingface-cli download PillowTa1k/CosyVoice --local-dir pretrained_models
@@ -661,7 +656,12 @@ huggingface-cli download PillowTa1k/DiffSinger --local-dir checkpoints
 ```bash
 # Download Whisper
 cd tools
-git lfs clone https://huggingface.co/openai/whisper-large-v3-turbo
+huggingface-cli download openai/whisper-large-v3-turbo --local-dir whisper-large-v3-turbo
+```
+
+```bash
+# Make sure git-lfs is installed (https://git-lfs.com)
+git lfs install
 ```
 
 ```bash
