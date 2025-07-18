@@ -269,7 +269,7 @@ Transform movie footage into compelling montages that capture specific themes an
 
 ##### 🕷️ **2.1.1 *Spider-Man: Across the Spider-Verse***
 
-<a href='https://www.bilibili.com/video/BV1C9Z6Y3ESo/' target='_blank'><img src='assets/spiderman_cover.png' width=60%/></a>
+<a href='https://www.bilibili.com/video/BV1C9Z6Y3ESo/' target='_blank'><img src='assets/spiderman_new.jpg' width=60%/></a>
 
 **🌟 Key Features:**
 - Perfect sync between visuals and background music rhythm (eg. 13s, 22s, 25s)
