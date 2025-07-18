@@ -17,8 +17,6 @@
 
 **VideoAgent** is a **Multi-Modal Agentic Framework** designed to provide seamless and powerful video intelligence capabilities. VideoAgent empowers users with three core functionalities: (1) **Understanding Video Content**, enabling in-depth analysis, summarization, and insight extraction; (2) **Editing Video Clips**, offering intuitive tools for assembling, clipping, and reconfiguring content; and (3) **Remaking Creative Videos**, utilizing generative technologies to produce new, imaginative video content. VideoAgent is a comprehensive solution for transforming how users interact with and create video media.
 
-<div align="center">
-
 
 ## 📑 Table of Contents
 
