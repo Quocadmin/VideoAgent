@@ -117,7 +117,7 @@ This module leverages advanced multi-modal understanding to extract meaningful i
 Quickly get a summary of the video transcript content.
 
 
-##### 🎬 **1.1.1 *Grok 4 Released***
+##### 🤖 **1.1.1 *Grok 4 Released***
 
 <a href="https://www.youtube.com/watch?v=MtYsUdfZPMA&t=26s" target='_blank'><img src="assets/grok4.png" width=60%/></a>
 
@@ -127,7 +127,7 @@ Quickly get a summary of the video transcript content.
 - Synthesis of performance metrics across academic and practical applications
 - Balanced presentation of advancements alongside limitations and future development roadmaps
 
-📝 **Output Summarization(Chinese-version)**:
+📝 **Output Summarization(Chinese version)**:
 ```
 # XAI发布Grok 4模型：突破性的推理能力与工具使用
 
