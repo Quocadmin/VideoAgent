@@ -88,7 +88,6 @@ graph TB
 
 **🚀 Transform videos into structured insights and intelligent summaries**
 
-</div>
 
 This module leverages advanced multi-modal understanding to extract meaningful information from video content and generate comprehensive textual descriptions. By analyzing visual scenes, audio content, and temporal dynamics, VideoAgent produces accurate and contextual summaries.
 
@@ -103,15 +102,12 @@ This module leverages advanced multi-modal understanding to extract meaningful i
 
 #### ✨ **Key Features:**
 
-<div align="center">
-
 | Feature | Description |
 |:--------|:------------|
 | 🎥 **Multi-modal Analysis** | Combining visual and audio understanding |
 | 🔊 **Transcription-based Q&A** | Interactive Q&A with video events |
 | 🎚️ **Customizable Output** | Adjustable summarization depth and focus |
 
-</div>
 
 #### 🔮 **1.1 Video Summarization**
 
