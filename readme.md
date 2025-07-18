@@ -264,7 +264,7 @@ Transform lengthy interviews and news event into concise, engaging video summari
 <tr>
 <td align="center" width="50%">
 <a href="https://www.bilibili.com/video/BV12mZ6YLEqW/" target='_blank'><img src="assets/openai_news_cover.png" width="100%"></a>
-Tech News made by VideoAgent
+Tech News Overview made by VideoAgent
 </td>
 <td align="center" width="50%">
 <a href="https://www.youtube.com/watch?v=2f3K43FHRKo" target='_blank'><img src="assets/tech_news_original_cover.png" width="100%"></a>
@@ -289,7 +289,7 @@ Short tech news, colloquial expression within 250 words, check the accuracy of k
 <tr>
 <td align="center" width="50%">
 <a href="https://www.bilibili.com/video/BV1m1Z6Y2Erb/" target='_blank'><img src="assets/dune_news_cover.png" width="100%"></a>
-Podcast Summarization About <i>Dune</i> 2 Cast
+Podcast Overview About <i>Dune</i> 2 Cast
 </td>
 <td align="center" width="50%">
 <a href="https://www.youtube.com/watch?v=AVQRnDFZ1Qs" target='_blank'><img src="assets/dune_original_cover.png" width="100%"></a>
