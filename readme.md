@@ -5,7 +5,7 @@
 <!-- # Open Agentic Video Intelligence -->
 <br>
 
-**🌟 Comprehensive Video Intelligence: Understanding, Clipping, and Creation in One Framework**
+**🌟 Comprehensive Video Intelligence: An All-in-One Framework for Understanding, Editing, and Remaking**
 
 <a href='https://space.bilibili.com/3546868449544308'><img src="https://img.shields.io/badge/bilibili-00A1D6.svg?logo=bilibili&logoColor=white" /></a>&nbsp;
 <a href='https://www.youtube.com/@AI-Creator-is-here'><img src='https://badges.aleen42.com/src/youtube.svg' /></a>&nbsp;
@@ -15,7 +15,7 @@
 
 ---
 
-**VideoAgent** is a multi-modal agent framework that provides comprehensive video processing capabilities. Leveraging state-of-the-art multimodal models and agent framework designs, VideoAgent enables sophisticated video analysis, intelligent editing, and creative content generation. The framework empowers users with three core functionalities: **understanding and summarizing video content**, **assembling and clipping video sequences**, and **generating creative video content** using generative technologies.
+**VideoAgent** is a **Multi-Modal Agentic Framework** designed to provide seamless and powerful video intelligence capabilities. VideoAgent empowers users with three core functionalities: (1) **Understanding Video Content**, enabling in-depth analysis, summarization, and insight extraction; (2) **Editing Video Clips**, offering intuitive tools for assembling, clipping, and reconfiguring content; and (3) **Remaking Creative Videos**, utilizing generative technologies to produce new, imaginative video content. VideoAgent is a comprehensive solution for transforming how users interact with and create video media.
 
 <div align="center">
 
