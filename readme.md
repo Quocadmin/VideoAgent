@@ -114,7 +114,7 @@ This module leverages advanced multi-modal understanding to extract meaningful i
 
 </div>
 
-#### 🔮 **1.1 Video Summarization**
+#### 🔮 **1.1 Video Summarization & QA**
 
 Quickly get a summary of the video transcript content.
 
@@ -191,11 +191,7 @@ Florence Pugh introduces her character, Princess Rulan, revealing her calculated
 The anticipation builds as the film promises grand action sequences and visually stunning scenes, compelling audiences to experience it on the big screen. Ultimately, the narrative weaves together themes of prophecy, love, and personal sacrifice, illustrating how these characters navigate fate and duty in their quest for identity and belonging.
 ```
 
-#### 🔍 **1.2 Video Q&A**
-
-Interact with video content through natural language questions and receive precise answers.
-
-##### 🎬 **1.2.1 *Dune: Part Two Cast Interview***
+#### 🔍 **1.1.3 Video Q&A**
 
 📝 **Q&A Demonstration**:
 ```
