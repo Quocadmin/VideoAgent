@@ -732,10 +732,23 @@ wget https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
 
 ```bash
 # VideoAgent\environment\config\config.yml 
-# Input your LLM API
 llm:
-  api_key:
-  base_url: 
+
+  # Video Remixing/TTS/SVC/Stand-up/CrossTalk
+  deepseek_api_key: ""  
+  deepseek_base_url: ""  
+
+  # Agentic Graph Router/TTS/SVC/Stand-up/CrossTalk
+  claude_api_key: ""  
+  claude_base_url: ""
+
+  # Video Editing/Overview/Summarization/QA/Text to Commentary Video
+  gpt_api_key: ""  
+  gpt_base_url: ""  
+
+  # MLLM for caption and fine-grained video understanding
+  gemini_api_key: ""  
+  gemini_base_url: ""  
 ```
 
 Model names may vary depending on the LLM base URL.
