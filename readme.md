@@ -22,7 +22,7 @@
 
 ## 📑 Table of Contents
 
-- [🏗️ Architecture](#architecture)
+- [🏗️ System Overview](#system-overview)
 - [🚀 Quick Start](#quick-start)
 - [🛠️ Development](#development)
 - [🗣️ Text-to-Speech Integration](#text-to-speech-integration)
