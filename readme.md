@@ -65,13 +65,12 @@ graph TB
     A --> C[✂️ Assembly & Clipping]
     A --> D[🎨 Generation & Creation]
     
-    B --> B1[Multi-modal Analysis]
+    B --> B1[Content Content Q&A]
     B --> B2[Content Summarization]
-    B --> B3[Temporal Understanding]
     
     C --> C1[Movie Edits]
     C --> C2[Novel Adaptation]
-    C --> C3[News Summarization]
+    C --> C3[Video Overview]
     
     D --> D1[Meme Videos]
     D --> D2[Music Videos]
@@ -247,9 +246,9 @@ We used VideoAgent to generate a video adaptation of the opening chapters from *
 Write fluent commentary script with 1500 words.
 ```
 
-#### 📰 **2.3 News Summarization**
+#### 📰 **2.3 Video Overview**
 
-Transform lengthy interviews and news content into concise, engaging video summaries with accurate information extraction.
+Transform lengthy interviews and news event into concise, engaging video summaries with accurate information extraction.
 
 <details>
 <summary><b>🔧 How VideoAgent Creates News Summaries</b></summary>
@@ -550,21 +549,9 @@ huggingface-cli download PillowTa1k/DiffSinger --local-dir checkpoints
 ```
 
 ```bash
-# Download MiniCPM
-cd tools
-git lfs clone https://huggingface.co/openbmb/MiniCPM-V-2_6-int4
-```
-
-```bash
 # Download Whisper
 cd tools
 git lfs clone https://huggingface.co/openai/whisper-large-v3-turbo
-```
-
-```bash
-# Download all-MiniLM-L6-v2
-cd tools
-git lfs clone https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 ```
 
 ```bash
@@ -654,16 +641,6 @@ cross_talk:
   video_source_dir: "dataset/user_video/"
 ```
 
-#### 👤 **Character Recognition Enhancement**
-
-```bash
-Under the dataset\video_edit\face_db, add images of the character to be recognized to enhance visual retrieval
-The completed character images folders structure should look like this, notice that the name of the character folder must be the same as the character name (eg. Spiderman/Batman/Superman...):
-
-face_db
-├── Spiderman ── image01.png
-└── Batman ── image02.png
-```
 
 ### 🚀 **Usage**
 
@@ -695,10 +672,8 @@ We express our deepest gratitude to the numerous individuals and organizations t
 - [VideoRAG](https://github.com/HKUDS/VideoRAG)
 - [ImageBind](https://github.com/facebookresearch/ImageBind)
 - [Whisper](https://github.com/openai/whisper)
-- [MiniCPM](https://github.com/OpenBMB/MiniCPM-o)
 - [Librosa](https://github.com/librosa/librosa)
-- [MoviePy](https://github.com/Zulko/moviepy)
-- [FFmpeg](https://github.com/FFmpeg/FFmpeg)
+
 
 ### 🎨 **Content Creators and Inspiration**
 
