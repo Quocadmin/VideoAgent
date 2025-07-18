@@ -111,6 +111,7 @@ This module leverages advanced multi-modal understanding to extract meaningful i
 | 🎚️ **Customizable Output** | Adjustable summarization depth and focus |
 
 </div>
+
 #### 🔮 **1.1 Video Summarization**
 
 Quickly get a summary of the video transcript content.
@@ -123,9 +124,7 @@ Quickly get a summary of the video transcript content.
 - Comprehensive condensation of lengthy interviews into digestible summaries
 - Preservation of key cast insights and character development perspectives
 - Capture of behind-the-scenes production details and actor experiences
-- Highlighting central themes and narrative elements of the film
-
-Through advanced natural language processing, VideoAgent automatically identifies **key discussions**, **emotional moments**, and **production insights** to create meaningful summaries.
+- Highlighting central themes and narrative elements of the event
 
 📝 **Output Summarization**:
 ```
