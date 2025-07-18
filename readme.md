@@ -38,8 +38,8 @@
 
 | Date | 📈 Update | Status |
 |:----:|:----------|:------:|
+| **2025.07** | 📢 Completed comparative experiments, technical details will be released! | 🔄 Will be released |
 | **2025.07** | 📢 Released Understanding & Summarization applications and demos! | ✅ Released |
-| **2025.06** | 📢 Completed comparative experiments, technical details will be released! | 🔄 Will be released |
 | **2025.05** | 🎯 Framework architecture update completed for enhanced modularity! | ✅ Completed |
 | **2025.04.24** | 📢 Enhanced visual perception capabilities for precise character recognition | ✅ Released |
 | **2025.04.14** | 📢 Updated VideoAgent framework implementation and usage documentation! | ✅ Released |
