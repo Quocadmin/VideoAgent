@@ -112,7 +112,19 @@ This module leverages advanced multi-modal understanding to extract meaningful i
 
 </div>
 
-> **🔮 [Placeholder for Understanding & Summarization Demo Examples]**
+> **🔮
+<table>
+<tr>
+<td align="center" width="50%">
+<a href="https://www.bilibili.com/video/BV1m1Z6Y2Erb/" target='_blank'><img src="assets/dune_news_cover.png" width="100%"></a>
+Podcast Overview About <i>Dune</i> 2 Cast
+</td>
+<td align="center" width="50%">
+<a href="https://www.youtube.com/watch?v=AVQRnDFZ1Qs" target='_blank'><img src="assets/dune_original_cover.png" width="100%"></a>
+Original Podcast with <i>Dune</i> 2 Cast
+</td>
+</tr>
+</table>**
 > 
 > *Coming Soon: Comprehensive video analysis demonstrations showcasing intelligent content understanding and automated summarization capabilities.*
 
