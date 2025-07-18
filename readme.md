@@ -111,21 +111,27 @@ This module leverages advanced multi-modal understanding to extract meaningful i
 | 🎚️ **Customizable Output** | Adjustable summarization depth and focus |
 
 </div>
-
-> **🔮
+##### 🔮 **1.1.1 Dune 2 Movie Cast Update Podcast Summarization**
 <table>
 <tr>
-<td align="center" width="50%">
-<a href="https://www.bilibili.com/video/BV1m1Z6Y2Erb/" target='_blank'><img src="assets/dune_news_cover.png" width="100%"></a>
-Podcast Overview About <i>Dune</i> 2 Cast
-</td>
 <td align="center" width="50%">
 <a href="https://www.youtube.com/watch?v=AVQRnDFZ1Qs" target='_blank'><img src="assets/dune_original_cover.png" width="100%"></a>
 Original Podcast with <i>Dune</i> 2 Cast
 </td>
 </tr>
 </table>**
-> 
+
+📝 **Summarization**:
+```
+In a thrilling exploration of Frank Herbert's "Dune," cast members reflect on the epic journey of bringing this iconic story to life on the big screen. They discuss the immense pressure of portraying Paul Atreides, with Timothy Chalamet sharing his experience of confronting prophecy and the challenges of evolving from a boy to a leader. Zendaya, who plays Chani, emphasizes the importance of finding human connections amidst the vast sci-fi landscape, describing their romantic relationship as one filled with conflict and pain.
+
+As the story progresses, Austin Butler prepares for his role as the villain Fade Rautha Harkonnen, delving into the depths of his character with an intense commitment that includes months of training. Javier Bardem, portraying Stilgar, expresses the complexity of being a mentor to Paul while grappling with religious fanaticism. 
+
+Florence Pugh introduces her character, Princess Rulan, revealing her calculated nature and her role in the power dynamics of the universe, while also highlighting the excitement of working alongside such talented actors. The cast reflects on their collaborative process with director Denis Villeneuve, acknowledging his passion and understanding of the source material, which shapes their performances.
+
+The anticipation builds as the film promises grand action sequences and visually stunning scenes, compelling audiences to experience it on the big screen. Ultimately, the narrative weaves together themes of prophecy, love, and personal sacrifice, illustrating how these characters navigate fate and duty in their quest for identity and belonging.
+```
+
 > *Coming Soon: Comprehensive video analysis demonstrations showcasing intelligent content understanding and automated summarization capabilities.*
 
 ---
