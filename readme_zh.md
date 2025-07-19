@@ -99,7 +99,7 @@ graph TB
     B --> B2[Video Summarization]
     
     C --> C1[Movie Edits]
-    C --> C2[Novel Adaptation]
+    C --> C2[Commentary Video]
     C --> C3[Video Overview]
     
     D --> D1[Meme Videos]
@@ -248,7 +248,7 @@ wget https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
   </tr>
   <tr>
     <td align="center">Comm</td>
-    <td align="center">Novel-to-Screen Adaptation</td>  
+    <td align="center">Commentary Video</td>  
     <td align="center">CosyVoice, Whisper, ImageBind</td>
   </tr>
   <tr>
@@ -327,7 +327,7 @@ User Requirement: ...
 </td>
 <td align="center" width="33%">
 <a href="https://www.bilibili.com/video/BV1TmZ6YLEqV/ " target='_blank'><img src="assets/joylife_cover.png" width="100%"></a>
-小说改编视频
+解说视频/小说改编视频
 </td>
 <td align="center" width="33%">
 <a href="https://www.bilibili.com/video/BV12mZ6YLEqW/ " target='_blank'><img src="assets/openai_news_cover.png" width="100%"></a>
