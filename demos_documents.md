@@ -181,19 +181,19 @@ Write fluent commentary script with 1500 words.
 
 #### 📰 **2.3 Video Overview**
 
-Transform lengthy interviews and news event into concise, engaging video summaries with accurate information extraction.
+Transform lengthy video event into concise, engaging video overview with accurate information extraction.
 
 <details>
 <summary><b>🔧 How VideoAgent Creates Video Overview</b></summary>
 
-- 📰 **Content Processing**: Accept interview/news source files for summarization
+- 📰 **Content Processing**: Accept interview/news video source files for summarization
 - 🎤 **Transcription**: Automatically transcribe and extract key information
 - 👤 **Entity Recognition**: Identify important people and events for highlight creation
 - 🎬 **Video Assembly**: Complete video assembly with synchronized audio
 
 </details>
 
-##### 🤖 **2.3.1 Tech News: OpenAI's GPT-4o Image Generation Release**
+##### 🤖 **2.3.1 Tech News Overview: OpenAI's GPT-4o Image Generation Release**
 
 <table>
 <tr>
