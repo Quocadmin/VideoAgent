@@ -117,7 +117,8 @@ We conduct extensive experiments across multiple dimensions to validate the effe
 ### Success Rate Comparison
 
 <div align="center">
-    <img src='./assets/eva1.png' /><br>
+    <img src='./assets/eva1_audio_new.png' /><br>
+    <img src='./assets/eva1_video_new.png' /><br>
 </div>
 
 ### Retrieval Performance Study
