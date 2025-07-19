@@ -556,9 +556,11 @@ Create engaging and viral-worthy meme content by intelligently transforming vide
 
 <table>
 <tr>
+<td align="center" width="50%">
 <a href='https://www.bilibili.com/video/BV1ucZ6YmEBU/' target='_blank'><img src='assets/masterma_cover.png' width=100%/></a>
 Master Ma as AI Researcher
 </td>
+<td align="center" width="50%">
 <a href='https://www.bilibili.com/video/BV1584y1N7cR/' target='_blank'><img src='assets/masterma_original_cover.png' width=100%/></a>
 Original Video of Master Ma
 </td>
@@ -574,17 +576,21 @@ Create a humorous narrative about two PhD students seeking advice from Master Ma
 
 <table>
 <tr>
+<td align="center" width="50%">
 <a href='https://www.bilibili.com/video/BV1gFZ6YEE5W' target='_blank'><img src='assets/xiaomingjianmo1_cover.png' width=100%/></a>
 Video 1: Mixue's Response
 </td>
+<td align="center" width="50%">
 <a href='https://www.bilibili.com/video/BV1ucZ6YmE5x'><img src='assets/xiaomingjianmo_findyourproblem_meme.png' width=100%/></a>
 Video 2: Find Your Own Problems
 </td>
 </tr>
 <tr>
+<td align="center" width="50%">
 <a href='https://www.bilibili.com/video/BV1ucZ6YmEFQ' target='_blank'><img src='assets/xiaomingjianmo_mvp_cover.png' width=100%/></a>
 Video 3: MVP
 </td>
+<td align="center" width="50%">
 <a href='https://www.bilibili.com/video/BV1ZYQzY5E1x' target='_blank'><img src='assets/xiaomingjianmo_original_cover.png' width=100%/></a>
 Video 4: Original 小明剑魔 Video
 </td>
@@ -654,6 +660,7 @@ Bridge cultural gaps through comedy by transforming content between different cu
 
 <table>
 <tr>
+<td align="center" width="50%">
 <a href="https://www.bilibili.com/video/BV1ucZ6YmESg/" target='_blank'><img src="assets/adapted_crosstalk_cover.png" width="100%"></a>
 Chinese Crosstalk Adaptation
 </td>
@@ -667,9 +674,11 @@ Original Stand-up Comedy Segment
 
 <table>
 <tr>
+<td align="center" width="50%">
 <a href="https://www.bilibili.com/video/BV13oZzYnEZq/" target='_blank'><img src="assets/adapted_standupcomedy_cover.png" width="100%"></a>
 Stand-up Comedy Adaptation
 </td>
+<td align="center" width="50%">
 <a href="https://www.bilibili.com/audio/au4765690/" target='_blank'><img src="assets/crosstalk_original_cover.png" width="100%"></a>
 Original Chinese Crosstalk Segment
 </td>
