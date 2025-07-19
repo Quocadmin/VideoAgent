@@ -17,20 +17,20 @@
 
 ## 🚀 Key Features
 
-🧠 - Understanding Video Content<br>
+🧠 - **Understanding Video Content**<br>
 Enable in-depth analysis, summarization, and insight extraction from video media with advanced multi-modal intelligence capabilities.
 
-✂️ - Editing Video Clips
+✂️ - **Editing Video Clips**<br>
 Provide intuitive tools for assembling, clipping, and reconfiguring content with seamless workflow integration.
 
-🎨 - Remaking Creative Videos
+🎨 - **Remaking Creative Videos**<br>
 Utilize generative technologies to produce new, imaginative video content through AI-powered creative assistance.
 
-🔧 - Multi-Modal Agentic Framework
+🔧 - **Multi-Modal Agentic Framework**<br>
 Deliver comprehensive video intelligence through an integrated framework that combines multiple AI modalities for enhanced performance.
 
-🚀 - Seamless Natural Language Experience
-Transform how users interact with and create video media through pure conversational interfaces - no complex menus or technical skills needed, just natural dialogue with AI.
+🚀 - **Seamless Natural Language Experience**<br>
+Transform how users interact with and create video media through pure conversational interfaces - no complex menus or technical skills needed, just natural dialogue with VideoAgent.
 
 ---
 
