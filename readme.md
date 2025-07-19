@@ -101,7 +101,44 @@ We conduct extensive experiments across multiple dimensions to validate the effe
 
 ---
 
-## 🎯 Core Techniques
+## 🎯 Demos
+
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://www.bilibili.com/video/BV1C9Z6Y3ESo/" target='_blank'><img src="assets/spiderman_cover.png" width="100%"></a>
+Movie Edits
+</td>
+<td align="center" width="33%">
+<a href="https://www.bilibili.com/video/BV1ucZ6YmEBU/" target='_blank'><img src="assets/masterma_cover.png" width="100%"></a>
+Meme Videos
+</td>
+<td align="center" width="33%">
+<a href="https://www.bilibili.com/video/BV1t8ZCYsEeA/" target='_blank'><img src="assets/airencuoguo_cover.png" width="100%"></a>
+Music Videos
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://www.bilibili.com/video/BV1ucZ6YmESg/" target='_blank'><img src="assets/adapted_crosstalk_cover.png" width="100%"></a>
+Verbal Comedy Arts
+</td>
+<td align="center" width="33%">
+<a href="https://www.bilibili.com/video/BV1TmZ6YjEvV/" target='_blank'><img src="assets/joylife_cover.png" width="100%"></a>
+TV Drama
+</td>
+<td align="center" width="33%">
+<a href="https://www.bilibili.com/video/BV12mZ6YLEqW/" target='_blank'><img src="assets/openai_news_cover.png" width="100%"></a>
+News Summarization
+</td>
+</tr>
+</table>
+
+You can find more fun videos on our Bilibili channel here:  
+👉 [Bilibili Homepage](https://space.bilibili.com/3546868449544308)  
+Feel free to check it out for more entertaining content! 😊  
+
+**Note**: All videos are used for research and demonstration purposes only. The audio and visual assets are sourced from the Internet. Please contact us if you believe any content infringes upon your intellectual property rights.
 
 ---
 
