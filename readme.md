@@ -114,15 +114,23 @@ graph TB
 ## 🔧 Evaluation
 We conduct extensive experiments across multiple dimensions to validate the effectiveness of VideoAgent in addressing key challenges.
 
+### Success Rate Comparison
+
 <div align="center">
     <img src='./assets/eva1.png' /><br>
 </div>
 
+### Retrieval Performance Study
+
 The evaluation employs three metrics using shuffled caption queries to test the model's ability to retrieve corresponding visual content: Recall measures the model's ability to correctly reorder shuffled video clips by comparing retrieved clip midpoints against ground truth positions; Embedding Matching-based score assesses coarse-grained alignment between generated videos and high-level caption summaries; and Intersection over Union quantifies temporal alignment accuracy at the clip level by computing the ratio of temporal overlap to total coverage between retrieved and ground truth intervals, providing both fine-grained boundary accuracy and broader content retrieval performance assessment.
+
 
 <div align="center">
     <img src='./assets/eva2.png' /><br>
 </div>
+
+
+### Impact of Reflection Iterations
 
 we investigate the number of reflection rounds of the VideoAgent as the research subject. We conduct hyperparameter experiments on workflow composition across two datasets using three LLM backbones. The results clearly demonstrate that although the initial rounds of iteration yield suboptimal outcomes, the success rate of workflow composition significantly improves with increasing reflection rounds on both datasets, eventually stabilizing around 0.95.
 <div align="center">
