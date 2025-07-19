@@ -18,7 +18,7 @@
 </div>
 
 <div align="center">
-[English](README.md) | [简体中文](README_ZH.md)
+[English](read.md) | [简体中文](readme_zh.md)
 </div>
 
 ---
