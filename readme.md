@@ -50,7 +50,6 @@ Transform video interaction and creation through pure conversational AI - no com
 - [🔧 Evaluation](#evaluation)
 - [🚀 Quick Start](#quick-start)
 - [🔮 Demos](#demos)
-- [📚 Documentation](#documentation)
 - [💖 Acknowledgments](#acknowledgments)
 
 
