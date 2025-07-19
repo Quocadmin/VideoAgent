@@ -310,7 +310,7 @@ Video Overview
 </table>
 
 For additional demo usage details, please refer to:  
-👉 [Demos Documents](demos_documents.md)
+👉 [Demos Documentation](demos_documents.md)
 
 
 You can find more fun videos on our Bilibili channel here:  
