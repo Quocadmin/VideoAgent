@@ -45,8 +45,6 @@ Transform video interaction and creation through pure conversational AI - no com
 - [🚀 Quick Start](#quick-start)
 - [📚 Demos](#demos)
 - [🛠️ Development](#development)
-- [❓ FAQ](#faq)
-- [📜 License](#license)
 - [💖 Acknowledgments](#acknowledgments)
 
 
