@@ -8,13 +8,12 @@
 **🌟 全面视频智能：理解、编辑和重塑的一体化框架**
 
 <div align="center">
-
-<a href='https://space.bilibili.com/3546868449544308 '><img src="https://img.shields.io/badge/bilibili-00A1D6.svg?logo=bilibili&logoColor=white" /></a>&nbsp;
-
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Welcome+to+VideoAgent;Next-Gen+Intelligent+Video+System" alt="Typing Animation" />
 </div>
 
-<a href=' https://www.youtube.com/ @AI-Creator-is-here'><img src='https://badges.aleen42.com/src/youtube.svg ' /></a>&nbsp;
-<img src='https://img.shields.io/github/stars/hkuds/videoagent ' />
+<a href='https://space.bilibili.com/3546868449544308'><img src="https://img.shields.io/badge/bilibili-00A1D6.svg?logo=bilibili&logoColor=white" /></a>&nbsp;
+<a href='https://www.youtube.com/@AI-Creator-is-here'><img src='https://badges.aleen42.com/src/youtube.svg' /></a>&nbsp;
+<img src='https://img.shields.io/github/stars/hkuds/videoagent' />
 
 </div>
 
@@ -64,7 +63,7 @@
 
 ---
 
-## 🌟 系统概述
+## 🌟系统概述
 
 我们的系统为自动化视频处理引入了三项关键创新。**意图分析** 捕捉用户指令之外的显性和隐性子意图。**自主工具使用与规划** 采用图驱动的工作流生成和自适应反馈循环，实现代理的自动化编排。**多模态理解** 将原始输入转化为语义对齐的视觉查询，以增强检索能力。
 
@@ -109,7 +108,7 @@ D --> D3[跨文化喜剧]
 
 ---
 
-## 🔧 评估
+## 🔧评估
 我们在多个维度上进行了广泛的实验，以验证 VideoAgent 在解决关键挑战方面的有效性。
 
 <div align="center">
@@ -135,7 +134,7 @@ D --> D3[跨文化喜剧]
 
 ---
 
-## 🚀 快速入门
+## 🚀快速入门
 
 
 ### 📥 **克隆与安装**
@@ -280,7 +279,7 @@ llm:
   gemini_base_url: ""  
 ```
 
-### 🎯 **使用方法**
+### 🎯**使用方法**
 
 
 ```bash
@@ -294,7 +293,7 @@ User Requirement: ...
 ```
 
 ---
-## 🔮 示例
+## 🔮示例
 
 <table>
 <tr>
@@ -341,7 +340,7 @@ User Requirement: ...
 
 ---
 
-## 💖 **致谢**
+## 💖**致谢**
 
 我们要向许多使 VideoAgent 成为可能的个人和组织表达最深切的感谢。这一框架建立在巨人的肩膀上，受益于开源社区的集体智慧和全球研究人员的开创性工作。
 
