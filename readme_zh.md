@@ -112,20 +112,29 @@ graph TB
 ---
 
 ## 🔧 评估
-We conduct extensive experiments across multiple dimensions to validate the effectiveness of VideoAgent in addressing key challenges.
+我们在多个维度进行了广泛的实验，以验证 VideoAgent 在解决关键挑战方面的有效性。
+
+### 通过工作流构建实现无限创造力
+
+为了评估 VideoAgent 通过自动工作流构建实现的**无限创造力**，我们在三个骨干模型上比较了五个广泛适用的智能体。我们的研究结果表明，VideoAgent 在音频和视频数据集上显著优于其他基线模型，展示了其通过图结构引导和专用自我评估反馈驱动的自我反思实现的**创意工作流生成能力**。此外，我们观察到 VideoAgent 在 Claude 3.7 骨干模型下表现出优越且更稳定的**创意性能**，相较于 GPT-4o 和 Deepseek-v3，而其他基线方法在不同骨干模型间表现出波动。这突出了 VideoAgent 通过自动构建多样化且有效的工作流来**释放无限创造力**的能力，这些工作流能够适应各种用户需求，更强大的 LLM 能够实现更深层的理解并为复杂的图任务提供更稳健的创意解决方案。
 
 <div align="center">
     <img src='./assets/eval1_audio_new.png' /><br>
     <img src='./assets/eval1_video_new.png' /><br>
 </div>
 
-The evaluation employs three metrics using shuffled caption queries to test the model's ability to retrieve corresponding visual content: Recall measures the model's ability to correctly reorder shuffled video clips by comparing retrieved clip midpoints against ground truth positions; Embedding Matching-based score assesses coarse-grained alignment between generated videos and high-level caption summaries; and Intersection over Union quantifies temporal alignment accuracy at the clip level by computing the ratio of temporal overlap to total coverage between retrieved and ground truth intervals, providing both fine-grained boundary accuracy and broader content retrieval performance assessment.
+### 卓越的多模态理解能力
+
+为了验证我们的多模态理解能力，我们使用混排字幕查询进行了文本到视频检索实验。评估采用三个指标来评估我们模型检索相应视觉内容的能力：召回率通过比较检索到的片段中点与真实位置来衡量模型正确重新排序混排视频片段的能力；基于嵌入匹配的分数评估生成视频与高级字幕摘要之间的粗粒度对齐；交并比通过计算时间重叠与检索间隔和真实间隔之间总覆盖范围的比率来量化片段级别的时间对齐准确性。实验结果表明，我们的方法能够检索到更准确的视频片段，从而展示了我们精确的多模态理解能力。
 
 <div align="center">
     <img src='./assets/eva2.png' /><br>
 </div>
 
-we investigate the number of reflection rounds of the VideoAgent as the research subject. We conduct hyperparameter experiments on workflow composition across two datasets using three LLM backbones. The results clearly demonstrate that although the initial rounds of iteration yield suboptimal outcomes, the success rate of workflow composition significantly improves with increasing reflection rounds on both datasets, eventually stabilizing around 0.95.
+### 更多迭代，更好性能
+
+我们通过分析反思轮次对性能的影响来研究 VideoAgent 的迭代优化能力。通过在两个数据集上使用三个 LLM 骨干模型进行工作流组合的综合超参数实验，我们展示了 VideoAgent 的**显著自我改进能力**。结果表明，虽然早期迭代产生基线结果，但我们系统的**自适应反思机制**推动每个后续轮次的显著性能提升。VideoAgent 在所有测试配置中实现了**一致的工作流组合成功率 0.95**，展示了其**强大的自我纠错能力**和**可靠的高质量输出**，无论底层 LLM 骨干模型如何。
+
 <div align="center">
     <div style="display: flex; justify-content: center; width: 80%; flex-wrap: nowrap;">
         <img src='./assets/eva3.jpg' style="margin: 0 5px; width: 400px;" />
