@@ -30,7 +30,7 @@ Utilize generative technologies to produce new, imaginative video content throug
 Deliver comprehensive video intelligence through an integrated framework that combines multiple AI modalities for enhanced performance.
 
 🚀 - **Seamless Natural Language Experience**<br>
-Transform how users interact with and create video media through pure conversational interfaces - no complex menus or technical skills needed, just natural dialogue with VideoAgent.
+Transform video interaction and creation through pure conversational AI - no complex interfaces or technical expertise required, just natural dialogue with VideoAgent.
 
 ---
 
