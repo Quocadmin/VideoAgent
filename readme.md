@@ -57,7 +57,7 @@ Transform video interaction and creation through pure conversational AI - no com
 
 ---
 
-## 🌟System Overview
+## 🌟 System Overview
 
 Our system introduces three key innovations for automated video processing. **Intent Analysis** captures both explicit and implicit sub-intents beyond user commands. **Autonamous Tool Use & Planning** employs graph-powered workflow generation with adaptive feedback loops for automated agent orchestration. **Multi-Modal Understanding** transforms raw input into semantically aligned visual queries for enhanced retrieval.
 
@@ -106,7 +106,7 @@ graph TB
 
 ---
 
-## 🔧Evaluation
+## 🔧 Evaluation
 We conduct extensive experiments across multiple dimensions to validate the effectiveness of VideoAgent in addressing key challenges.
 
 <div align="center">
@@ -127,7 +127,7 @@ The evaluation employs three metrics using shuffled caption queries to test the 
 
 ---
 
-## 🚀Quick Start
+## 🚀 Quick Start
 
 ### 📥 **Clone and Install**
 
@@ -184,7 +184,7 @@ cd .checkpoints
 wget https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
 ```
 
-**🌟Multiple models are available for your convenience; you may wish to download only those relevant to your project.**
+**🌟 Multiple models are available for your convenience; you may wish to download only those relevant to your project.**
 
 
 <table>
@@ -276,7 +276,7 @@ User Requirement: ...
 
 ---
 
-## 🔮Demos
+## 🔮 Demos
 
 <table>
 <tr>
