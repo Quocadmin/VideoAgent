@@ -92,19 +92,16 @@ graph TB
 We conduct extensive experiments across multiple dimensions to validate the effectiveness of VideoAgent in addressing key challenges.
 
 <div align="center">
-<img src='./assets/eva1.png' />
-<img src='./assets/eva2.png' />
+    <img src='./assets/eva1.png' /><br>
+    <div style="display: flex; justify-content: center; width: 100%; flex-wrap: nowrap;">
+        <img src='./assets/eva3.jpg' style="margin: 0 5px; width: 470px;" />
+        <img src='./assets/eva2.png' style="margin: 0 5px; width: 500px;" />
+    </div>
 </div>
 
 ---
 
-## 🎯Core Techniques
-
-<div align="center">
-
-<img src='./assets/edit_workflow.png' />
-
-
+## 🎯 Core Techniques
 
 ---
 
