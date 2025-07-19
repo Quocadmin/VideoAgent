@@ -299,7 +299,7 @@ Feel free to check it out for more entertaining content! 😊
 
 </div>
 
-This module leverages advanced multi-modal understanding to extract meaningful information from video content and generate comprehensive textual descriptions. By analyzing visual scenes, audio content, and temporal dynamics, VideoAgent produces accurate and contextual summaries.
+This module leverages transcription tool extract meaningful information from video content and generate comprehensive textual descriptions.
 
 <details>
 <summary><b>🔧 How VideoAgent Processes Video Understanding</b></summary>
