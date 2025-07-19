@@ -72,7 +72,13 @@ Transform video interaction and creation through pure conversational AI - no com
 - ⚙️ **A graph-powered framework** automatically translates user intents into **executable workflows**. The system dynamically selects appropriate agents and constructs optimal execution sequences. Nodes represent tool capabilities while edges define workflow connections for complex video tasks.
 
 - 🔄 Adaptive feedback loops continuously refine the planning process through **two-step self-evaluation**. This ensures robust **automated decision-making** and seamless execution. The system **self-corrects** and optimizes performance throughout the entire task lifecycle.
- 
+
+### 🎬 **Multi-Modal Understanding**
+
+- 📋 **The Storyboard Agent** transforms raw user input into **optimized visual queries**. It first analyzes pre-captioned video material banks to understand available resources. This foundational analysis ensures the system knows exactly what content is accessible for query processing.
+
+- 💡 The agent then **decomposes user input** into **fine-grained sub-queries** that are both visually and semantically aligned. This sophisticated breakdown enables **enhanced video retrieval** by matching user intentions with the most relevant visual content in the database.
+
 <div align="center">
 
 <img src='./assets/framework.jpg' />
