@@ -17,6 +17,10 @@
 
 </div>
 
+<div align="center">
+[English](./README.md) | [简体中文](./README_ZH.md)
+</div>
+
 ---
 
 ## 🚀 Key Features
@@ -321,12 +325,6 @@ Feel free to check it out for more entertaining content! 😊
 
 
 **Note**: All videos are used for research and demonstration purposes only. The audio and visual assets are sourced from the Internet. Please contact us if you believe any content infringes upon your intellectual property rights.
-
----
-
-## 📚**Documentation**
-
-For detailed documentation in Chinese, please refer to our [comprehensive guide](https://o86nig8lht.feishu.cn/docx/P86mdzslVowcz7xuGJ0cE7n0n2b?from=from_copylink).
 
 ---
 
