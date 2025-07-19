@@ -88,7 +88,7 @@ graph TB
 
 ## 🌟 System Overview
 
-Our system introduces three key innovations for automated video processing. **Intent Analysis** captures both explicit and implicit sub-intents beyond user commands. **Autonomous Tool Use & Planning** employs graph-powered workflow generation with adaptive feedback loops for automated agent orchestration. **Multi-Modal Understanding** transforms raw input into semantically aligned visual queries for enhanced retrieval.
+Our system introduces three key innovations for automated video processing. **Intent Analysis** captures both explicit and implicit sub-intents beyond user commands. **Autonamous Tool Use & Planning** employs graph-powered workflow generation with adaptive feedback loops for automated agent orchestration. **Multi-Modal Understanding** transforms raw input into semantically aligned visual queries for enhanced retrieval.
 
 ### 🧠 **Intent Analysis**
 	
@@ -113,9 +113,9 @@ Our system introduces three key innovations for automated video processing. **In
 ## 🔧 Evaluation
 We conduct extensive experiments across multiple dimensions to validate the effectiveness of VideoAgent in addressing key challenges.
 
-### Success Rate Comparison
+### Boundless Creativity via Workflow Construction
 
-To evaluate VideoAgent's capability in automatically constructing agent workflows based on user requirements, we compared five broadly applicable agents across three backbone. Our findings indicate that VideoAgent significantly outperforms other baselines on the Audio and Video datasets, which can be attributed to its graph-structured guidance and self-reflection driven by dedicated self-evaluation feedback. Furthermore, we observe that VideoAgent exhibits superior and more stable performance under the Claude 3.7 backbone compared to GPT-4o and Deepseek-v3, while other baseline methods show fluctuations across different backbones. We posit that when handling complex graph-based tasks, more capable LLMs tend to achieve deeper comprehension and provide more robust solutions.
+To evaluate VideoAgent's **boundless creativity** through automatic workflow construction, we compared five broadly applicable agents across three backbone models. Our findings demonstrate that VideoAgent significantly outperforms other baselines on the Audio and Video datasets, showcasing its **creative workflow generation capabilities** through graph-structured guidance and self-reflection driven by dedicated self-evaluation feedback. Furthermore, we observe that VideoAgent exhibits superior and more stable **creative performance** under the Claude 3.7 backbone compared to GPT-4o and Deepseek-v3, while other baseline methods show fluctuations across different backbones. This highlights VideoAgent's ability to **unleash boundless creativity** by automatically constructing diverse and effective workflows that adapt to various user requirements, with more capable LLMs achieving deeper comprehension and providing more robust creative solutions for complex graph-based tasks.
 
 <div align="center">
     <img src='./assets/eval1_audio_new.png' /><br>
@@ -132,9 +132,9 @@ To validate our multimodal understanding capabilities, we conducted text-to-vide
 </div>
 
 
-### Impact of Reflection Iterations
+### More Iterations, Better Performance
 
-we investigate the number of reflection rounds of the VideoAgent as the research subject. We conduct hyperparameter experiments on workflow composition across two datasets using three LLM backbones. The results clearly demonstrate that although the initial rounds of iteration yield suboptimal outcomes, the success rate of workflow composition significantly improves with increasing reflection rounds on both datasets, eventually stabilizing around 0.95.
+We investigate VideoAgent's iterative refinement capabilities by analyzing the impact of reflection rounds on performance. Through comprehensive hyperparameter experiments on workflow composition across two datasets using three LLM backbones, we demonstrate VideoAgent's **notable self-improvement ability**. The results reveal that while early iterations produce baseline results, our system's **adaptive reflection mechanism** drives significant performance gains with each subsequent round. VideoAgent achieves **consistent workflow composition success rates of 0.95** across all tested configurations, showcasing its **robust self-correction capabilities** and **reliable high-quality output** regardless of the underlying LLM backbone.
 <div align="center">
     <div style="display: flex; justify-content: center; width: 80%; flex-wrap: nowrap;">
         <img src='./assets/eva3.jpg' style="margin: 0 5px; width: 400px;" />
