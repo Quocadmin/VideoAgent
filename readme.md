@@ -61,13 +61,15 @@ Transform video interaction and creation through pure conversational AI - no com
 
 ## 🌟System Overview
 
+Our system introduces three key innovations for automated video processing. **Intent Analysis** captures both explicit and implicit sub-intents beyond user commands. **Autonamous Tool Use & Planning** employs graph-powered workflow generation with adaptive feedback loops for automated agent orchestration. **Multi-Modal Understanding** transforms raw input into semantically aligned visual queries for enhanced retrieval.
+
 ### 🧠 **Intent Analysis**
 	
 - 🔍 VideoAgent intelligently **decomposes user instructions** into both **explicit and implicit sub-intents**, capturing nuanced requirements that users may not explicitly state. This advanced parsing ensures **comprehensive understanding** of user goals beyond surface-level commands.
 
 - 🎯 Through an **intent-to-agent mapping mechanism**, the system identifies precisely which capabilities within the multi-agent framework are needed. This targeted approach enables **efficient activation** of relevant system components while avoiding unnecessary computational overhead for **optimal task execution**.
 
-### 🔧 **Tool Use & Planning**
+### 🔧 **Autonamous Tool Use & Planning**
 
 - ⚙️ **A graph-powered framework** automatically translates user intents into **executable workflows**. The system dynamically selects appropriate agents and constructs optimal execution sequences. Nodes represent tool capabilities while edges define workflow connections for complex video tasks.
 
