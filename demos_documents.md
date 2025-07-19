@@ -101,7 +101,7 @@ The anticipation builds as the film promises grand action sequences and visually
 
 #### 🔍 **1.3 Video Q&A**
 
-📝 **Q&A Demonstration**:
+📝 **Q&A Demo**:
 ```
 Q: How many times have editors rejected the novel?
 A: The novel was rejected 22 times by editors who thought it was too complex. This information can be found in the transcript around the first sentence.
@@ -143,7 +143,7 @@ This module specializes in assembling existing video materials into cohesive nar
 
 </div>
 
-#### 🎬 **2.1 Movie Edits**
+#### 🎬 **2.1 Movie Edits with Rhythmic Music**
 
 Transform movie footage into compelling montages that capture specific themes and emotions with perfect music synchronization.
 
