@@ -91,9 +91,9 @@
 
 ```mermaid
 graph TB
-    A[🎬 VideoAgent Framework] --> B[🧠 Understanding & Summarization]
-    A --> C[✂️ Assembly & Clipping]
-    A --> D[🎨 Generation & Creation]
+    A[🎬 VideoAgent Framework] --> B[🧠 Video Understanding & Summarization]
+    A --> C[✂️ Video Editing]
+    A --> D[🎨 VIdeo Remaking]
     
     B --> B1[Video Q&A]
     B --> B2[Video Summarization]
