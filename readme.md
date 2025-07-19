@@ -17,7 +17,7 @@
 
 ## 🚀 Key Features
 
-🧠 - Understanding Video Content
+🧠 - Understanding Video Content<br>
 Enable in-depth analysis, summarization, and insight extraction from video media with advanced multi-modal intelligence capabilities.
 
 ✂️ - Editing Video Clips
@@ -29,8 +29,8 @@ Utilize generative technologies to produce new, imaginative video content throug
 🔧 - Multi-Modal Agentic Framework
 Deliver comprehensive video intelligence through an integrated framework that combines multiple AI modalities for enhanced performance.
 
-🚀 - Seamless User Experience
-Transform how users interact with and create video media through intuitive interfaces and powerful automation capabilities.
+🚀 - Seamless Natural Language Experience
+Transform how users interact with and create video media through pure conversational interfaces - no complex menus or technical skills needed, just natural dialogue with AI.
 
 ---
 
