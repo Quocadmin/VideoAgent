@@ -119,6 +119,7 @@ The evaluation employs three metrics using shuffled caption queries to test the 
     <img src='./assets/eva2.png' /><br>
 </div>
 
+we investigate the number of reflection rounds of the VideoAgent as the research subject. We conduct hyperparameter experiments on workflow composition across two datasets using three LLM backbones. The results clearly demonstrate that although the initial rounds of iteration yield suboptimal outcomes, the success rate of workflow composition significantly improves with increasing reflection rounds on both datasets, eventually stabilizing around 0.95.
 <div align="center">
     <div style="display: flex; justify-content: center; width: 80%; flex-wrap: nowrap;">
         <img src='./assets/eva3.jpg' style="margin: 0 5px; width: 420px;" />
