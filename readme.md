@@ -36,8 +36,8 @@ Transform video interaction and creation through pure conversational AI - no com
 
 ## 📑 Table of Contents
 
-- [🏗️ System Overview](#system-overview)
-- [🔧 Core Techniques](#core-techniques)
+- [🌟 System Overview](#system-overview)
+- [🔧 Evaluation](#evaluation)
 - [🚀 Quick Start](#quick-start)
 - [🛠️ Development](#development)
 - [🗣️ Text-to-Speech Integration](#text-to-speech-integration)
@@ -88,7 +88,7 @@ graph TB
 
 ---
 
-## 🏗️ Evaluation
+## 🔧Evaluation
 We conduct extensive experiments across multiple dimensions to validate the effectiveness of VideoAgent in addressing key challenges.
 
 <div align="center">
