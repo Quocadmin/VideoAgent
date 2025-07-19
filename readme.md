@@ -93,7 +93,7 @@ We conduct extensive experiments across multiple dimensions to validate the effe
 
 <div align="center">
 <img src='./assets/eva1.png' />
-<img src='./assets/eva2.png' />
+<img src='./assets/recall.png' />
 </div>
 
 ---
