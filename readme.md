@@ -311,7 +311,7 @@ Video Overview
 </tr>
 </table>
 
-For additional demo usage details, please refer to:
+For additional demo usage details, please refer to: 
 👉 [Demos Documents](demos_documents.md)
 
 
@@ -356,4 +356,4 @@ Our work has been significantly enriched by the creative contributions of conten
 
 **⚠️ Note**: All content used in our demonstrations is for research purposes only. We deeply respect the intellectual property rights of all content creators and welcome any concerns or feedback regarding content usage.
 
-**🙏 Special Attribution**: Spider-Man movie editing concept inspired by Douyin account [@我是不是zx](https://www.douyin.com/user/MS4wLjABAAAApVuuGxyM7CI4MJRHQvc6SAy0J2zrJ12eg3f5jFqCIXk?from_tab_name=main&vid=7468621366913273115)
+**🙏 Special Attribution**: Spider-Man movie editing idea inspired by Douyin account [@我是不是zx](https://www.douyin.com/user/MS4wLjABAAAApVuuGxyM7CI4MJRHQvc6SAy0J2zrJ12eg3f5jFqCIXk?from_tab_name=main&vid=7468621366913273115)
