@@ -64,10 +64,6 @@ Transform video interaction and creation through pure conversational AI - no com
 
 ## 🌟System Overview
 
-<div align="center">
-
-<img src='./assets/framework.jpg' />
-
 🧠 ### **Intent Analysis**
 	
 - 🔍 VideoAgent intelligently **decomposes user instructions** into both **explicit and implicit sub-intents**, capturing nuanced requirements that users may not explicitly state. This advanced parsing ensures **comprehensive understanding** of user goals beyond surface-level commands.
@@ -79,6 +75,11 @@ Transform video interaction and creation through pure conversational AI - no com
 	- ⚙️ **A graph-powered framework** automatically translates user intents into **executable workflows**. The system dynamically selects appropriate agents and constructs optimal execution sequences. Nodes represent tool capabilities while edges define workflow connections for complex video tasks.
 
 	- 🔄 Adaptive feedback loops continuously refine the planning process through **two-step self-evaluation**. This ensures robust **automated decision-making** and seamless execution. The system **self-corrects** and optimizes performance throughout the entire task lifecycle.
+ 
+<div align="center">
+
+<img src='./assets/framework.jpg' />
+
  
 ```mermaid
 graph TB
