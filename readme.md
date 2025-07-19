@@ -122,7 +122,7 @@ The evaluation employs three metrics by shuffled caption queries used to test th
 </div>
 
 <div align="center">
-    <div style="display: flex; justify-content: center; width: 100%; flex-wrap: nowrap;">
+    <div style="display: flex; justify-content: center; width: 80%; flex-wrap: nowrap;">
         <img src='./assets/eva3.jpg' style="margin: 0 5px; width: 400px;" />
     </div>
 </div>
