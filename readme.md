@@ -55,10 +55,10 @@ Transform video interaction and creation through pure conversational AI - no com
 
 ### 🔥 **Why VideoAgent?**
 
-| 🧠 **Easy-to-Use** | 🚀 **Cultural Bridge** | 🎨 **High-Quality** |
+| 🧠 **Easy-to-Use** | 🚀 **Boundless Creativity** | 🎨 **High-Quality** |
 |:---:|:---:|:---:|
-| One-Prompt Video Creation | Seamless Cross-Cultural Adaptation | Human-Quality Video Production |
-| Transform your ideas into professional videos | Effortlessly localize content across languages and cultures | Deliver videos that meet professional standards |
+| One-Prompt Video Creation | Create From Any Ideas | Human-Quality Video Production |
+| Transform your ideas into professional videos | Workflow generation for your unique ideas | Deliver videos that meet professional standards |
 
 ---
 
