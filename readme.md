@@ -309,7 +309,7 @@ Video Overview
 </tr>
 </table>
 
-For additional demo usage details, please refer to: 
+For additional demo usage details, please refer to:  
 👉 [Demos Documents](demos_documents.md)
 
 
