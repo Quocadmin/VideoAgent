@@ -54,8 +54,8 @@ Transform video interaction and creation through pure conversational AI - no com
 
 | 🧠 **Intelligence** | 🚀 **User-Friendly** | 🎨 **Creativity** |
 |:---:|:---:|:---:|
-| Advanced multi-modal understanding | Easy-to-use with minimal expertise required | Generative content creation |
-| Context-aware analysis | One-prompt video creation | Cross-cultural adaptation |
+| One-Prompt Video Creation | Easy-to-use with minimal expertise required | Generative content creation |
+| Transform your ideas into professional videos | One-prompt video creation | Cross-cultural adaptation |
 
 ---
 
