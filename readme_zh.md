@@ -115,7 +115,8 @@ graph TB
 We conduct extensive experiments across multiple dimensions to validate the effectiveness of VideoAgent in addressing key challenges.
 
 <div align="center">
-    <img src='./assets/eva1.png' /><br>
+    <img src='./assets/eval1_audio_new.png' /><br>
+    <img src='./assets/eval1_video_new.png' /><br>
 </div>
 
 The evaluation employs three metrics using shuffled caption queries to test the model's ability to retrieve corresponding visual content: Recall measures the model's ability to correctly reorder shuffled video clips by comparing retrieved clip midpoints against ground truth positions; Embedding Matching-based score assesses coarse-grained alignment between generated videos and high-level caption summaries; and Intersection over Union quantifies temporal alignment accuracy at the clip level by computing the ratio of temporal overlap to total coverage between retrieved and ground truth intervals, providing both fine-grained boundary accuracy and broader content retrieval performance assessment.
