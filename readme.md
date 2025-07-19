@@ -208,7 +208,7 @@ A: You can buy tickets to Dune Part 2 on Fandango.com. This information is menti
 
 ---
 
-### ✂️ **2. Video Assembly & Clipping**
+### ✂️ **2. Video Editing**
 
 
 **🎬 Intelligent video compilation and clipping based on user requirements**
@@ -308,7 +308,7 @@ Short tech news, colloquial expression within 250 words, check the accuracy of k
 
 ---
 
-### 🎨 **3. Video Generation & Creation**
+### 🎨 **3. Video Remaking**
 
 
 **🚀 Advanced video creation using multi-modal generative technologies**
