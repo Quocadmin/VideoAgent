@@ -121,8 +121,8 @@ The evaluation employs three metrics by shuffled caption queries used to test th
     <img src='./assets/eva2.png' /><br>
 </div>
 
-<div align="center">
-    <img src='./assets/eva3.jpg' /><br>
+<div style="display: flex; justify-content: center; width: 100%; flex-wrap: nowrap;">
+    <img src='./assets/eva3.jpg' style="margin: 0 5px; width: 470px;" />
 </div>
 
 ---
