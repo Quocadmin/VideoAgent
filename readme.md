@@ -115,7 +115,7 @@ We conduct extensive experiments across multiple dimensions to validate the effe
 
 ### Success Rate Comparison
 
-To evaluate VideoAgent's capability in automatically constructing agent workflows based on user requirements, we compared five broadly applicable agents across three backbone. Our findings indicate that VideoAgent significantly outperforms other baselines on the Audio and Video datasets, which can be attributed to its graph-structured guidance and self-reflection driven by dedicated self-evaluation feedback.
+To evaluate VideoAgent's capability in automatically constructing agent workflows based on user requirements, we compared five broadly applicable agents across three backbone. Our findings indicate that VideoAgent significantly outperforms other baselines on the Audio and Video datasets, which can be attributed to its graph-structured guidance and self-reflection driven by dedicated self-evaluation feedback. Furthermore, we observe that VideoAgent exhibits superior and more stable performance under the Claude 3.7 backbone compared to GPT-4o and Deepseek-v3, while other baseline methods show fluctuations across different backbones. We posit that when handling complex graph-based tasks, more capable LLMs tend to achieve deeper comprehension and provide more robust solutions.
 
 <div align="center">
     <img src='./assets/eval1_audio_new.png' /><br>
@@ -124,7 +124,7 @@ To evaluate VideoAgent's capability in automatically constructing agent workflow
 
 ### Retrieval Performance Study
 
-The evaluation employs three metrics using shuffled caption queries to test the model's ability to retrieve corresponding visual content: Recall measures the model's ability to correctly reorder shuffled video clips by comparing retrieved clip midpoints against ground truth positions; Embedding Matching-based score assesses coarse-grained alignment between generated videos and high-level caption summaries; and Intersection over Union quantifies temporal alignment accuracy at the clip level by computing the ratio of temporal overlap to total coverage between retrieved and ground truth intervals, providing both fine-grained boundary accuracy and broader content retrieval performance assessment. Furthermore, we observed that VideoAgent exhibits superior and more stable performance under the Claude 3.7 backbone compared to GPT-4o and Deepseek-v3, while other baseline methods show fluctuations across different backbones. We posit that when handling complex graph-based tasks, more capable LLMs tend to achieve deeper comprehension and provide more robust solutions.
+The evaluation employs three metrics using shuffled caption queries to test the model's ability to retrieve corresponding visual content: Recall measures the model's ability to correctly reorder shuffled video clips by comparing retrieved clip midpoints against ground truth positions; Embedding Matching-based score assesses coarse-grained alignment between generated videos and high-level caption summaries; and Intersection over Union quantifies temporal alignment accuracy at the clip level by computing the ratio of temporal overlap to total coverage between retrieved and ground truth intervals, providing both fine-grained boundary accuracy and broader content retrieval performance assessment.
 
 
 <div align="center">
