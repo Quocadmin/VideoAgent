@@ -91,17 +91,20 @@
 
 ```mermaid
 graph TB
-A[🎬 VideoAgent 框架] --> B[🧠 理解与摘要]
-A --> C[✂️ 组装与剪辑]
-A --> D[🎨 生成与创作]
-B --> B1[视频问答]
-B --> B2[视频摘要]
-C --> C1[电影剪辑]
-C --> C2[新改编]
-C --> C3[视频概览]
-D --> D1[表情包视频]
-D --> D2[音乐视频]
-D --> D3[跨文化喜剧]
+    A[🎬 VideoAgent Framework] --> B[🧠 Understanding & Summarization]
+    A --> C[✂️ Assembly & Clipping]
+    A --> D[🎨 Generation & Creation]
+    
+    B --> B1[Video Q&A]
+    B --> B2[Video Summarization]
+    
+    C --> C1[Movie Edits]
+    C --> C2[Novel Adaptation]
+    C --> C3[Video Overview]
+    
+    D --> D1[Meme Videos]
+    D --> D2[Music Videos]
+    D --> D3[Cross-Cultural Comedy]
 ```
 
 </div>
@@ -109,28 +112,25 @@ D --> D3[跨文化喜剧]
 ---
 
 ## 🔧评估
-我们在多个维度上进行了广泛的实验，以验证 VideoAgent 在解决关键挑战方面的有效性。
+We conduct extensive experiments across multiple dimensions to validate the effectiveness of VideoAgent in addressing key challenges.
 
 <div align="center">
-	<img src='./assets/eva1.png' /><br>
-
+    <img src='./assets/eva1.png' /><br>
 </div>
 
-评估使用了三种指标，通过混洗字幕查询测试模型检索相应视觉内容的能力：Recall（召回率）衡量模型通过比较检索剪辑的中点与真实位置来重新排序混洗视频剪辑的能力；Embedding Matching-based score（基于嵌入匹配的得分）评估生成视频与高级字幕摘要之间的粗粒度对齐；Intersection over Union（交并比）通过计算检索和真实时间间隔之间的重叠比来量化时间对齐精度，提供细粒度边界精度和更广泛的内容检索性能评估。
+The evaluation employs three metrics using shuffled caption queries to test the model's ability to retrieve corresponding visual content: Recall measures the model's ability to correctly reorder shuffled video clips by comparing retrieved clip midpoints against ground truth positions; Embedding Matching-based score assesses coarse-grained alignment between generated videos and high-level caption summaries; and Intersection over Union quantifies temporal alignment accuracy at the clip level by computing the ratio of temporal overlap to total coverage between retrieved and ground truth intervals, providing both fine-grained boundary accuracy and broader content retrieval performance assessment.
 
 <div align="center">
-	<img src='./assets/eva2.png' /><br>
+    <img src='./assets/eva2.png' /><br>
 </div>
 
-我们研究了 VideoAgent 的反思轮数。我们在两个数据集上使用三个 LLM 骨干进行了超参数实验。结果清楚地表明，尽管最初的几次迭代结果不佳，但随着反思轮数的增加，工作流组合的成功率在两个数据集上都显著提高，最终稳定在 0.95 左右。
-
+we investigate the number of reflection rounds of the VideoAgent as the research subject. We conduct hyperparameter experiments on workflow composition across two datasets using three LLM backbones. The results clearly demonstrate that although the initial rounds of iteration yield suboptimal outcomes, the success rate of workflow composition significantly improves with increasing reflection rounds on both datasets, eventually stabilizing around 0.95.
 <div align="center">
     <div style="display: flex; justify-content: center; width: 80%; flex-wrap: nowrap;">
-	<img src='./assets/eva3.jpg' style="margin: 0 5px; width: 400px;" />
+        <img src='./assets/eva3.jpg' style="margin: 0 5px; width: 400px;" />
 	<img src='./assets/eva4.jpg' style="margin: 0 5px; width: 400px;" />
-     </div>
+    </div>
 </div>
-
 
 ---
 
