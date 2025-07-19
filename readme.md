@@ -57,7 +57,7 @@ Transform video interaction and creation through pure conversational AI - no com
 
 ---
 
-## 🌟 System Overview
+## 🌟System Overview
 
 Our system introduces three key innovations for automated video processing. **Intent Analysis** captures both explicit and implicit sub-intents beyond user commands. **Autonamous Tool Use & Planning** employs graph-powered workflow generation with adaptive feedback loops for automated agent orchestration. **Multi-Modal Understanding** transforms raw input into semantically aligned visual queries for enhanced retrieval.
 
@@ -106,7 +106,7 @@ graph TB
 
 ---
 
-## 🔧 Evaluation
+## 🔧Evaluation
 We conduct extensive experiments across multiple dimensions to validate the effectiveness of VideoAgent in addressing key challenges.
 
 <div align="center">
@@ -129,7 +129,7 @@ we investigate the number of reflection rounds of the VideoAgent as the research
 
 ---
 
-## 🚀 Quick Start
+## 🚀Quick Start
 
 ### 📥 **Clone and Install**
 
@@ -262,7 +262,7 @@ llm:
   gemini_base_url: ""  
 ```
 
-### 🎯 **Usage**
+### 🎯**Usage**
 
 ```bash
 # With the configuration now complete, proceed to run the following instructions:
@@ -278,7 +278,7 @@ User Requirement: ...
 
 ---
 
-## 🔮 Demos
+## 🔮Demos
 
 <table>
 <tr>
@@ -324,13 +324,13 @@ Feel free to check it out for more entertaining content! 😊
 
 ---
 
-## 📚 **Documentation**
+## 📚**Documentation**
 
 For detailed documentation in Chinese, please refer to our [comprehensive guide](https://o86nig8lht.feishu.cn/docx/P86mdzslVowcz7xuGJ0cE7n0n2b?from=from_copylink).
 
 ---
 
-## 🤝 **Acknowledgments**
+## 🤝**Acknowledgments**
 
 We express our deepest gratitude to the numerous individuals and organizations that have made VideoAgent possible. This framework stands on the shoulders of giants, benefiting from the collective wisdom of the open-source community and the groundbreaking work of researchers worldwide.
 
