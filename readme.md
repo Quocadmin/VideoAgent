@@ -42,6 +42,30 @@ Deliver comprehensive video intelligence through an integrated framework that co
 🚀 - **Seamless Natural Language Experience**<br>
 Transform video interaction and creation through pure conversational AI - no complex interfaces or technical expertise required, just natural dialogue with VideoAgent.
 
+<div align="center">
+
+<img src='./assets/framework.jpg' />
+
+ 
+```mermaid
+graph TB
+    A[🎬 VideoAgent Framework] --> B[🧠 Video Understanding & Summarization]
+    A --> C[✂️ Video Editing]
+    A --> D[🎨 VIdeo Remaking]
+    
+    B --> B1[Video Q&A]
+    B --> B2[Video Summarization]
+    
+    C --> C1[Movie Edits]
+    C --> C2[Novel Adaptation]
+    C --> C3[Video Overview]
+    
+    D --> D1[Meme Videos]
+    D --> D2[Music Videos]
+    D --> D3[Cross-Cultural Comedy]
+```
+
+</div>
 ---
 
 ## 📑 Table of Contents
@@ -83,31 +107,6 @@ Our system introduces three key innovations for automated video processing. **In
 - 📋 **The Storyboard Agent** transforms raw user input into **optimized visual queries**. It first analyzes pre-captioned video material banks to understand available resources. This foundational analysis ensures the system knows exactly what content is accessible for query processing.
 
 - 💡 The agent then **decomposes user input** into **fine-grained sub-queries** that are both visually and semantically aligned. This sophisticated breakdown enables **enhanced video retrieval** by matching user intentions with the most relevant visual content in the database.
-
-<div align="center">
-
-<img src='./assets/framework.jpg' />
-
- 
-```mermaid
-graph TB
-    A[🎬 VideoAgent Framework] --> B[🧠 Video Understanding & Summarization]
-    A --> C[✂️ Video Editing]
-    A --> D[🎨 VIdeo Remaking]
-    
-    B --> B1[Video Q&A]
-    B --> B2[Video Summarization]
-    
-    C --> C1[Movie Edits]
-    C --> C2[Novel Adaptation]
-    C --> C3[Video Overview]
-    
-    D --> D1[Meme Videos]
-    D --> D2[Music Videos]
-    D --> D3[Cross-Cultural Comedy]
-```
-
-</div>
 
 ---
 
