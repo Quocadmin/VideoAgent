@@ -120,9 +120,9 @@ We conduct extensive experiments across multiple dimensions to validate the effe
     <img src='./assets/eval1_video_new.png' /><br>
 </div>
 
-### Retrieval Performance Study
+### Superior Multimodal Understanding
 
-The evaluation employs three metrics using shuffled caption queries to test the model's ability to retrieve corresponding visual content: Recall measures the model's ability to correctly reorder shuffled video clips by comparing retrieved clip midpoints against ground truth positions; Embedding Matching-based score assesses coarse-grained alignment between generated videos and high-level caption summaries; and Intersection over Union quantifies temporal alignment accuracy at the clip level by computing the ratio of temporal overlap to total coverage between retrieved and ground truth intervals, providing both fine-grained boundary accuracy and broader content retrieval performance assessment.
+To validate our multimodal understanding capabilities, we conducted text-to-video retrieval experiments using shuffled caption queries. The evaluation employs three metrics to assess our model's ability to retrieve corresponding visual content: Recall measures the model's ability to correctly reorder shuffled video clips by comparing retrieved clip midpoints against ground truth positions; Embedding Matching-based score assesses coarse-grained alignment between generated videos and high-level caption summaries; and Intersection over Union quantifies temporal alignment accuracy at the clip level by computing the ratio of temporal overlap to total coverage between retrieved and ground truth intervals. The experimental results demonstrate that our approach can retrieve more accurate video segments, thereby showcasing our precise multimodal understanding capabilities.
 
 
 <div align="center">
