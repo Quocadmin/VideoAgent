@@ -278,11 +278,11 @@ Verbal Comedy Arts
 </td>
 <td align="center" width="33%">
 <a href="https://www.bilibili.com/video/BV1TmZ6YjEvV/" target='_blank'><img src="assets/joylife_cover.png" width="100%"></a>
-TV Drama
+Novel to Screen
 </td>
 <td align="center" width="33%">
 <a href="https://www.bilibili.com/video/BV12mZ6YLEqW/" target='_blank'><img src="assets/openai_news_cover.png" width="100%"></a>
-News Summarization
+Video Overview
 </td>
 </tr>
 </table>
@@ -494,9 +494,11 @@ Transform lengthy interviews and news event into concise, engaging video summari
 
 <table>
 <tr>
+<td align="center" width="50%">
 <a href="https://www.bilibili.com/video/BV12mZ6YLEqW/" target='_blank'><img src="assets/openai_news_cover.png" width="100%"></a>
 Tech News Overview made by VideoAgent
 </td>
+<td align="center" width="50%">
 <a href="https://www.youtube.com/watch?v=2f3K43FHRKo" target='_blank'><img src="assets/tech_news_original_cover.png" width="100%"></a>
 Original Tech Report
 </td>
@@ -664,6 +666,7 @@ Bridge cultural gaps through comedy by transforming content between different cu
 <a href="https://www.bilibili.com/video/BV1ucZ6YmESg/" target='_blank'><img src="assets/adapted_crosstalk_cover.png" width="100%"></a>
 Chinese Crosstalk Adaptation
 </td>
+<td align="center" width="50%">
 <a href="https://www.bilibili.com/video/BV1u1421t78T" target='_blank'><img src="assets/standup_original_cover.png" width="100%"></a>
 Original Stand-up Comedy Segment
 </td>
