@@ -101,7 +101,156 @@ We conduct extensive experiments across multiple dimensions to validate the effe
 
 ---
 
-## 🎯 Demos
+## 🚀Quick Start
+
+### 📥 **Clone and Install**
+
+```bash
+git clone https://github.com/HKUDS/VideoAgent.git
+conda create --name videoagent python=3.10
+conda activate videoagent
+conda install -y -c conda-forge pynini==2.1.5 ffmpeg
+pip install -r requirements.txt
+```
+
+### 📦 **Model Download**
+
+```bash
+# Download CosyVoice
+cd tools/CosyVoice
+huggingface-cli download PillowTa1k/CosyVoice --local-dir pretrained_models
+```
+
+```bash
+# Download fish-speech
+cd tools/fish-speech
+huggingface-cli download fishaudio/fish-speech-1.5 --local-dir checkpoints/fish-speech-1.5
+```
+
+```bash
+# Download seed-vc
+cd tools/seed-vc
+huggingface-cli download PillowTa1k/seed-vc --local-dir checkpoints
+```
+
+```bash
+# Download DiffSinger
+cd tools/DiffSinger
+huggingface-cli download PillowTa1k/DiffSinger --local-dir checkpoints
+```
+
+```bash
+# Download Whisper
+cd tools
+huggingface-cli download openai/whisper-large-v3-turbo --local-dir whisper-large-v3-turbo
+```
+
+```bash
+# Make sure git-lfs is installed (https://git-lfs.com)
+git lfs install
+```
+
+```bash
+# Download ImageBind
+cd tools
+mkdir .checkpoints
+cd .checkpoints
+wget https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
+```
+
+**🌟Multiple models are available for your convenience; you may wish to download only those relevant to your project.**
+
+
+<table>
+  <tr>
+    <th align="center">Feature Type</th>
+    <th align="center">Video Demo</th>
+    <th align="center">Required Models</th>
+  </tr>
+  <tr>
+    <td align="center">Cross Talk</td>
+    <td align="center">English Stand-up Comedy to Chinese Crosstalk</td>
+    <td align="center">CosyVoice, Whisper, ImageBind</td>
+  </tr>
+  <tr>
+    <td align="center">Talk Show</td>
+    <td align="center">Chinese Crosstalk to English Stand-up Comedy</td>
+    <td align="center">CosyVoice, Whisper, ImageBind</td>
+  </tr>
+  <tr>
+    <td align="center">MAD TTS</td>
+    <td align="center">Xiao-Ming-Jian-Mo(小明剑魔) Meme</td>
+    <td align="center">fish-speech</td>
+  </tr>
+  <tr>
+    <td align="center">MAD SVC</td>
+    <td align="center">AI Music Videos</td>
+    <td align="center">DiffSinger, seed-vc, Whisper, ImageBind</td>
+  </tr>
+  <tr>
+    <td align="center">Rhythm</td>
+    <td align="center">Spider-Man: Across the Spider-Verse</td>
+    <td align="center">Whisper, ImageBind</td>
+  </tr>
+  <tr>
+    <td align="center">Comm</td>
+    <td align="center">Novel-to-Screen Adaptation</td>  
+    <td align="center">CosyVoice, Whisper, ImageBind</td>
+  </tr>
+  <tr>
+    <td align="center">News</td>
+    <td align="center">Tech News: OpenAI's GPT-4o Image Generation Release</td>
+    <td align="center">CosyVoice, Whisper, ImageBind</td>
+  </tr>
+  <tr>
+    <td align="center">Video QA/Summarization</td>
+    <td align="center">Dune 2 Movie Cast Update Podcast</td>
+    <td align="center">Whisper</td>
+  </tr>
+</table>
+
+</div>
+
+### 🤖 **LLM Configuration**
+
+```bash
+# VideoAgent\environment\config\config.yml 
+llm:
+
+  # Video Remixing/TTS/SVC/Stand-up/CrossTalk
+  deepseek_api_key: ""  
+  deepseek_base_url: ""  
+
+  # Agentic Graph Router/TTS/SVC/Stand-up/CrossTalk
+  claude_api_key: ""  
+  claude_base_url: ""
+
+  # Video Editing/Overview/Summarization/QA/Commentary Video
+  gpt_api_key: ""  
+  gpt_base_url: ""  
+
+  # MLLM for caption and fine-grained video understanding
+  gemini_api_key: ""  
+  gemini_base_url: ""  
+```
+
+### 🎯 **Usage**
+
+```bash
+# With the configuration now complete, proceed to run the following instructions:
+python main.py
+# The console will output:
+User Requirement: ...
+# Requirement Example:
+# 1. I need to create a reworded version of an existing video where the speech content is modified while maintaining the original speaker's voice. The video should have the same visuals as the original, but with updated dialogue that follows my specific requirements.
+# 2. I have a standup comedy script that I'd like to turn into a professional-looking video. I need the script to be performed with good comedic timing and audience reactions, then matched with relevant video footage to create a complete standup comedy special. I already have a reference script and some footage I want to use for the video.
+
+
+```
+
+---
+
+## 🎯Demos
 
 <table>
 <tr>
@@ -522,155 +671,6 @@ Original Chinese Crosstalk Segment
 </td>
 </tr>
 </table>
-
----
-
-## 🚀Quick Start
-
-### 📥 **Clone and Install**
-
-```bash
-git clone https://github.com/HKUDS/VideoAgent.git
-conda create --name videoagent python=3.10
-conda activate videoagent
-conda install -y -c conda-forge pynini==2.1.5 ffmpeg
-pip install -r requirements.txt
-```
-
-### 📦 **Model Download**
-
-```bash
-# Download CosyVoice
-cd tools/CosyVoice
-huggingface-cli download PillowTa1k/CosyVoice --local-dir pretrained_models
-```
-
-```bash
-# Download fish-speech
-cd tools/fish-speech
-huggingface-cli download fishaudio/fish-speech-1.5 --local-dir checkpoints/fish-speech-1.5
-```
-
-```bash
-# Download seed-vc
-cd tools/seed-vc
-huggingface-cli download PillowTa1k/seed-vc --local-dir checkpoints
-```
-
-```bash
-# Download DiffSinger
-cd tools/DiffSinger
-huggingface-cli download PillowTa1k/DiffSinger --local-dir checkpoints
-```
-
-```bash
-# Download Whisper
-cd tools
-huggingface-cli download openai/whisper-large-v3-turbo --local-dir whisper-large-v3-turbo
-```
-
-```bash
-# Make sure git-lfs is installed (https://git-lfs.com)
-git lfs install
-```
-
-```bash
-# Download ImageBind
-cd tools
-mkdir .checkpoints
-cd .checkpoints
-wget https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
-```
-
-**🌟Multiple models are available for your convenience; you may wish to download only those relevant to your project.**
-
-
-<table>
-  <tr>
-    <th align="center">Feature Type</th>
-    <th align="center">Video Demo</th>
-    <th align="center">Required Models</th>
-  </tr>
-  <tr>
-    <td align="center">Cross Talk</td>
-    <td align="center">English Stand-up Comedy to Chinese Crosstalk</td>
-    <td align="center">CosyVoice, Whisper, ImageBind</td>
-  </tr>
-  <tr>
-    <td align="center">Talk Show</td>
-    <td align="center">Chinese Crosstalk to English Stand-up Comedy</td>
-    <td align="center">CosyVoice, Whisper, ImageBind</td>
-  </tr>
-  <tr>
-    <td align="center">MAD TTS</td>
-    <td align="center">Xiao-Ming-Jian-Mo(小明剑魔) Meme</td>
-    <td align="center">fish-speech</td>
-  </tr>
-  <tr>
-    <td align="center">MAD SVC</td>
-    <td align="center">AI Music Videos</td>
-    <td align="center">DiffSinger, seed-vc, Whisper, ImageBind</td>
-  </tr>
-  <tr>
-    <td align="center">Rhythm</td>
-    <td align="center">Spider-Man: Across the Spider-Verse</td>
-    <td align="center">Whisper, ImageBind</td>
-  </tr>
-  <tr>
-    <td align="center">Comm</td>
-    <td align="center">Novel-to-Screen Adaptation</td>  
-    <td align="center">CosyVoice, Whisper, ImageBind</td>
-  </tr>
-  <tr>
-    <td align="center">News</td>
-    <td align="center">Tech News: OpenAI's GPT-4o Image Generation Release</td>
-    <td align="center">CosyVoice, Whisper, ImageBind</td>
-  </tr>
-  <tr>
-    <td align="center">Video QA/Summarization</td>
-    <td align="center">Dune 2 Movie Cast Update Podcast</td>
-    <td align="center">Whisper</td>
-  </tr>
-</table>
-
-</div>
-
-### 🤖 **LLM Configuration**
-
-```bash
-# VideoAgent\environment\config\config.yml 
-llm:
-
-  # Video Remixing/TTS/SVC/Stand-up/CrossTalk
-  deepseek_api_key: ""  
-  deepseek_base_url: ""  
-
-  # Agentic Graph Router/TTS/SVC/Stand-up/CrossTalk
-  claude_api_key: ""  
-  claude_base_url: ""
-
-  # Video Editing/Overview/Summarization/QA/Commentary Video
-  gpt_api_key: ""  
-  gpt_base_url: ""  
-
-  # MLLM for caption and fine-grained video understanding
-  gemini_api_key: ""  
-  gemini_base_url: ""  
-```
-
-### 🚀 **Usage**
-
-```bash
-# With the configuration now complete, proceed to run the following instructions:
-python main.py
-# The console will output:
-User Requirement: ...
-# Requirement Example:
-# 1. I need to create a reworded version of an existing video where the speech content is modified while maintaining the original speaker's voice. The video should have the same visuals as the original, but with updated dialogue that follows my specific requirements.
-# 2. I have a standup comedy script that I'd like to turn into a professional-looking video. I need the script to be performed with good comedic timing and audience reactions, then matched with relevant video footage to create a complete standup comedy special. I already have a reference script and some footage I want to use for the video.
-
-
-```
 
 ---
 
