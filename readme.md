@@ -93,7 +93,7 @@ We conduct extensive experiments across multiple dimensions to validate the effe
 
 <div align="center">
     <img src='./assets/eva1.png' /><br>
-    <img src='./assets/eva2.png' style="margin: 0 5px; width: 500px;" />
+    <img src='./assets/eva2.png' /><br>
     <div style="display: flex; justify-content: center; width: 100%; flex-wrap: nowrap;">
         <img src='./assets/eva3.jpg' style="margin: 0 5px; width: 470px;" />
     </div>
