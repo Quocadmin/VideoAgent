@@ -237,7 +237,7 @@ wget https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
   </tr>
   <tr>
     <td align="center">Comm</td>
-    <td align="center">Novel-to-Screen Adaptation</td>  
+    <td align="center">Commentary Video</td>  
     <td align="center">CosyVoice, Whisper, ImageBind</td>
   </tr>
   <tr>
