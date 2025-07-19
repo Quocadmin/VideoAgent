@@ -330,7 +330,7 @@ For detailed documentation in Chinese, please refer to our [comprehensive guide]
 
 ---
 
-## 🤝**Acknowledgments**
+## 💖**Acknowledgments**
 
 We express our deepest gratitude to the numerous individuals and organizations that have made VideoAgent possible. This framework stands on the shoulders of giants, benefiting from the collective wisdom of the open-source community and the groundbreaking work of researchers worldwide.
 
