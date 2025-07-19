@@ -57,7 +57,7 @@ graph TB
     B --> B2[Video Summarization]
     
     C --> C1[Movie Edits]
-    C --> C2[Novel Adaptation]
+    C --> C2[Commentary Video]
     C --> C3[Video Overview]
     
     D --> D1[Meme Videos]
@@ -317,7 +317,7 @@ Verbal Comedy Arts
 </td>
 <td align="center" width="33%">
 <a href="https://www.bilibili.com/video/BV1TmZ6YjEvV/" target='_blank'><img src="assets/joylife_cover.png" width="100%"></a>
-Novel to Screen
+Commentary Video
 </td>
 <td align="center" width="33%">
 <a href="https://www.bilibili.com/video/BV12mZ6YLEqW/" target='_blank'><img src="assets/openai_news_cover.png" width="100%"></a>
