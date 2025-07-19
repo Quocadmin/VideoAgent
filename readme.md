@@ -69,7 +69,7 @@ Our system introduces three key innovations for automated video processing. **In
 
 - 🎯 Through an **intent-to-agent mapping mechanism**, the system identifies precisely which capabilities within the multi-agent framework are needed. This targeted approach enables **efficient activation** of relevant system components while avoiding unnecessary computational overhead for **optimal task execution**.
 
-### 🔧 **Autonamous Tool Use & Planning**
+### 🔧 **Autonomous Tool Use & Planning**
 
 - ⚙️ **A graph-powered framework** automatically translates user intents into **executable workflows**. The system dynamically selects appropriate agents and constructs optimal execution sequences. Nodes represent tool capabilities while edges define workflow connections for complex video tasks.
 
