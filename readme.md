@@ -43,8 +43,8 @@ Transform video interaction and creation through pure conversational AI - no com
 - [🌟 System Overview](#system-overview)
 - [🔧 Evaluation](#evaluation)
 - [🚀 Quick Start](#quick-start)
-- [📚 Demos](#demos)
-- [🛠️ Development](#development)
+- [🔮 Demos](#demos)
+- [📚 Documentation](#documentation)
 - [💖 Acknowledgments](#acknowledgments)
 
 
@@ -330,7 +330,7 @@ For detailed documentation in Chinese, please refer to our [comprehensive guide]
 
 ---
 
-## 🤝 **Acknowledgements**
+## 🤝 **Acknowledgments**
 
 We express our deepest gratitude to the numerous individuals and organizations that have made VideoAgent possible. This framework stands on the shoulders of giants, benefiting from the collective wisdom of the open-source community and the groundbreaking work of researchers worldwide.
 
