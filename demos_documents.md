@@ -27,7 +27,7 @@ This module leverages transcription tool extract meaningful information from vid
 
 </div>
 
-##### 🤖 **1.1 *Grok 4 Released***
+##### 🤖 **1.1.1 *Grok 4 Released***
 
 <a href="https://www.youtube.com/watch?v=MtYsUdfZPMA&t=26s" target='_blank'><img src="assets/grok4.png" width=60%/></a>
 
@@ -84,7 +84,7 @@ Video Generation: XAI plans to begin training video models within the next 3-4 w
 The release of Grok 4 marks a major advancement in AI technology, demonstrating XAI's ambition in advancing artificial general intelligence. As the team states: "We are at the beginning of an intelligence explosion—this is the most interesting period in human history."
 ```
 
-##### 🎬 **1.2 *Dune: Part Two Cast Interview***
+##### 🎬 **1.2.1 *Dune: Part Two Cast Interview***
 
 <a href="https://www.youtube.com/watch?v=AVQRnDFZ1Qs" target='_blank'><img src="assets/dune_youtube.png" width=60%/></a>
 
@@ -99,7 +99,7 @@ Florence Pugh introduces her character, Princess Rulan, revealing her calculated
 The anticipation builds as the film promises grand action sequences and visually stunning scenes, compelling audiences to experience it on the big screen. Ultimately, the narrative weaves together themes of prophecy, love, and personal sacrifice, illustrating how these characters navigate fate and duty in their quest for identity and belonging.
 ```
 
-#### 🔍 **1.3 Video Q&A**
+#### 🔍 **1.2.2 Video Q&A**
 
 📝 **Q&A Demo**:
 ```
