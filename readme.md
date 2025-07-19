@@ -115,6 +115,8 @@ We conduct extensive experiments across multiple dimensions to validate the effe
 
 ### Success Rate Comparison
 
+To evaluate VideoAgent's capability in automatically constructing agent workflows based on user requirements, we compared five broadly applicable agents across three backbone. Our findings indicate that VideoAgent significantly outperforms other baselines on the Audio and Video datasets, which can be attributed to its graph-structured guidance and self-reflection driven by dedicated self-evaluation feedback.
+
 <div align="center">
     <img src='./assets/eval1_audio_new.png' /><br>
     <img src='./assets/eval1_video_new.png' /><br>
