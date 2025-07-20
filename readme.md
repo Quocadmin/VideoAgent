@@ -66,6 +66,7 @@ graph TB
 ```
 
 </div>
+
 ---
 
 ## 📑 Table of Contents
@@ -298,7 +299,7 @@ User Requirement: ...
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://www.bilibili.com/video/BV1C9Z6Y3ESo/" target='_blank'><img src="assets/spiderman_new.jpg" width="100%"></a>
+<a href="https://www.bilibili.com/video/BV1C9Z6Y3ESo/" target='_blank'><img src="assets/spiderman_cover.png" width="100%"></a>
 Movie Edits
 </td>
 <td align="center" width="33%">
