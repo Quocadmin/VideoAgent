@@ -9,6 +9,7 @@ logging.basicConfig(level=logging.WARNING)
 logging.getLogger("modelscope").setLevel(logging.WARNING)
 from environment.agents.multi import MultiAgent
 
+
 def print_banner():
     """Display VideoAgent banner and welcome message"""
     banner = """
