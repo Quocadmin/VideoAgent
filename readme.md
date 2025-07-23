@@ -260,6 +260,7 @@ wget https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth
 ```bash
 # VideoAgent\environment\config\config.yml
 # Applicable scenarios and LLM configuration
+# Claude is required as it powers the Agentic Graph Router 
 llm:
   # Video Remixing/TTS/SVC/Stand-up/CrossTalk
   deepseek_api_key: ""  
