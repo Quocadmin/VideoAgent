@@ -25,6 +25,16 @@
 
 ---
 
+## 📹 **Video**
+<div>
+<a href="https://www.bilibili.com/video/BV16sbZzWErf/" target='_blank'><img src="assets/overview.png" width="100%"></a>
+</div>
+
+In this video, we demonstrate how to use VideoAgent to:
+- Clearly articulate user requirements
+- Achieve ​intent analysis and ​autonomous tool use & planning
+- Create ​multi-modal products, including detailed workflows
+
 ## 🚀 Key Features
 
 🧠 - **Understanding Video Content**<br>
@@ -41,10 +51,6 @@ Deliver comprehensive video intelligence through an integrated framework that co
 
 🚀 - **Seamless Natural Language Experience**<br>
 Transform video interaction and creation through pure conversational AI - no complex interfaces or technical expertise required, just natural dialogue with VideoAgent.
-
-<div align="center">
-
-<img src='./assets/framework.jpg' />
 
  
 ```mermaid
@@ -108,11 +114,6 @@ Our system introduces three key innovations for automated video processing. **In
 - 📋 **The Storyboard Agent** transforms raw user input into **optimized visual queries**. It first analyzes pre-captioned video material banks to understand available resources. This foundational analysis ensures the system knows exactly what content is accessible for query processing.
 
 - 💡 The agent then **decomposes user input** into **fine-grained sub-queries** that are both visually and semantically aligned. This sophisticated breakdown enables **enhanced video retrieval** by matching user intentions with the most relevant visual content in the database.
-
-### 📹 **VideoAgent Overview**
-<div align="center">
-	<a href="https://www.bilibili.com/video/BV16sbZzWErf/" target='_blank'><img src="assets/overview.png" width="90%" height="90%"></a>
-</div>
 
 ---
 
