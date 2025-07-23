@@ -147,6 +147,13 @@ We investigate VideoAgent's iterative refinement capabilities by analyzing the i
 
 ## 🚀 Quick Start
 
+### 🖥️ **Environment**
+
+```
+GPU Memory: 8GB  
+OS: Linux, Windows
+```
+
 ### 📥 **Clone and Install**
 
 ```bash
