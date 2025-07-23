@@ -368,5 +368,5 @@ Our work has been significantly enriched by the creative contributions of conten
 
 ---
 
-<img src="https://badges.pufler.dev/visits/HKUDS/Open-NotebookLM?style=flat-square&logo=github" alt="Visitors">
+<img src="https://visitor-badge.laobi.icu/badge?page_id=HKUDS.Open-NotebookLM&style=for-the-badge&color=00d4ff" alt="Visitors">
 
