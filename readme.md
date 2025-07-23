@@ -366,3 +366,7 @@ Our work has been significantly enriched by the creative contributions of conten
 
 **⚠️ Note**: All content used in our demonstrations is for research purposes only. We deeply respect the intellectual property rights of all content creators and welcome any concerns or feedback regarding content usage.
 
+---
+
+<img src="https://badges.pufler.dev/visits/HKUDS/Open-NotebookLM?style=flat-square&logo=github" alt="Visitors">
+
