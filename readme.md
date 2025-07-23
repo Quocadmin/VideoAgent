@@ -109,6 +109,10 @@ Our system introduces three key innovations for automated video processing. **In
 
 - 💡 The agent then **decomposes user input** into **fine-grained sub-queries** that are both visually and semantically aligned. This sophisticated breakdown enables **enhanced video retrieval** by matching user intentions with the most relevant visual content in the database.
 
+### 📹 **VideoAgent Overview**
+<div align="center">
+	<a href="https://www.bilibili.com/video/BV1ucZ6YmESg/" target='_blank'><img src="assets/overview.png" width="90%" height="90%"></a>
+</div>
 ---
 
 ## 🔧 Evaluation
