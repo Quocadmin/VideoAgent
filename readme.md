@@ -111,7 +111,7 @@ Our system introduces three key innovations for automated video processing. **In
 
 ### 📹 **VideoAgent Overview**
 <div align="center">
-	<a href="https://www.bilibili.com/video/BV1ucZ6YmESg/" target='_blank'><img src="assets/overview.png" width="90%" height="90%"></a>
+	<a href="https://www.bilibili.com/video/BV16sbZzWErf/" target='_blank'><img src="assets/overview.png" width="90%" height="90%"></a>
 </div>
 ---
 
