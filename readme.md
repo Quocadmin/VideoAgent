@@ -26,7 +26,7 @@
 
 ## 📹 **Demo Video**
 <div>
-<a href="https://www.bilibili.com/video/BV16sbZzWErf/" target='_blank'><img src="assets/overview.png" width="100%"></a>
+<a href="https://www.youtube.com/watch?v=JZkXO1NG2Ok" target='_blank'><img src="assets/overview.png" width="100%"></a>
 </div>
 
 In this video, we demonstrate how to use VideoAgent to:
