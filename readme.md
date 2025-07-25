@@ -5,15 +5,14 @@
 <!-- # Open Agentic Video Intelligence -->
 <br>
 
-**🌟 Comprehensive Video Intelligence: An All-in-One Framework for Understanding, Editing, and Remaking**
+**🌟 Comprehensive Video Intelligence: An All-in-One Framework for Video/Audio Understanding, Editing, and Remaking**
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Welcome+to+VideoAgent;Chat+with+Your+Videos" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Welcome+to+VideoAgent;Chat+with+Your+Videos+&+Audio" alt="Typing Animation" />
 </div>
 
 <a href='https://space.bilibili.com/3546868449544308'><img src="https://img.shields.io/badge/bilibili-00A1D6.svg?logo=bilibili&logoColor=white" /></a>&nbsp;
 <a href='https://www.youtube.com/@AI-Creator-is-here'><img src='https://badges.aleen42.com/src/youtube.svg' /></a>&nbsp;
-<img src='https://img.shields.io/github/stars/hkuds/videoagent' />
 
 </div>
 
@@ -25,7 +24,7 @@
 
 ---
 
-## 📹 **Video**
+## 📹 **Demo Video**
 <div>
 <a href="https://www.bilibili.com/video/BV16sbZzWErf/" target='_blank'><img src="assets/overview.png" width="100%"></a>
 </div>
@@ -34,6 +33,7 @@ In this video, we demonstrate how to use VideoAgent to:
 - Clearly articulate user requirements
 - Achieve ​intent analysis and ​autonomous tool use & planning
 - Create ​multi-modal products, including detailed workflows
+- Fully automatic generation of video overview
 
 ## 🚀 Key Features
 
@@ -93,7 +93,7 @@ graph TB
 
 ---
 
-## 🌟 System Overview
+## 🌟System Overview
 
 Our system introduces three key innovations for automated video processing. **Intent Analysis** captures both explicit and implicit sub-intents beyond user commands. **Autonamous Tool Use & Planning** employs graph-powered workflow generation with adaptive feedback loops for automated agent orchestration. **Multi-Modal Understanding** transforms raw input into semantically aligned visual queries for enhanced retrieval.
 
@@ -117,7 +117,7 @@ Our system introduces three key innovations for automated video processing. **In
 
 ---
 
-## 🔧 Evaluation
+## 🔧Evaluation
 We conduct extensive experiments across multiple dimensions to validate the effectiveness of VideoAgent in addressing key challenges.
 
 ### Boundless Creativity via Workflow Construction
@@ -151,7 +151,7 @@ We investigate VideoAgent's iterative refinement capabilities by analyzing the i
 
 ---
 
-## 🚀 Quick Start
+## 🚀Quick Start
 
 ### 🖥️ **Environment**
 
@@ -309,7 +309,7 @@ You can also adjust the model names in `VideoAgent\environment\config\llm.py` if
 
 ---
 
-## 🔮 Demos
+## 🔮Demos
 
 <table>
 <tr>
@@ -355,7 +355,7 @@ Feel free to check it out for more entertaining content! 😊
 
 ---
 
-## 💖 **Acknowledgments**
+## 💖**Acknowledgments**
 
 We express our deepest gratitude to the numerous individuals and organizations that have made VideoAgent possible. This framework stands on the shoulders of giants, benefiting from the collective wisdom of the open-source community and the groundbreaking work of researchers worldwide.
 
@@ -383,5 +383,6 @@ Our work has been significantly enriched by the creative contributions of conten
 
 ---
 
+<div align="center">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=HKUDS.Open-NotebookLM&style=for-the-badge&color=00d4ff" alt="Visitors">
-
+</div>
