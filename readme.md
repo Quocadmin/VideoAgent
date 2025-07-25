@@ -5,7 +5,7 @@
 <!-- # Open Agentic Video Intelligence -->
 <br>
 
-**🌟 Comprehensive Video Intelligence: An All-in-One Framework for Video/Audio Understanding, Editing, and Remaking**
+**🌟 Comprehensive Video Intelligence: An All-in-One Framework for Understanding, Editing, and Remaking**
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Welcome+to+VideoAgent;Chat+with+Your+Videos+&+Audio" alt="Typing Animation" />
