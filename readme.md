@@ -386,3 +386,142 @@ Our work has been significantly enriched by the creative contributions of conten
 <div align="center">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=HKUDS.Open-NotebookLM&style=for-the-badge&color=00d4ff" alt="Visitors">
 </div>
+
+1. Tổng quan Triển khai VideoAgent dưới dạng WebApp
+Mục tiêu:
+Bạn muốn cài đặt VideoAgent trên một máy chủ (server), tạo giao diện web để người dùng upload video, nhập yêu cầu và nhận kết quả (hiểu, chỉnh sửa, tạo video mới...)
+Dữ liệu có thể lưu trữ riêng tư, bảo mật, không phụ thuộc cloud công cộng như Google Colab hay HuggingFace Spaces.
+
+2. Các thành phần cần có khi triển khai WebApp
+Backend (máy chủ AI):
+Chạy các mô hình AI, xử lý video/audio/nội dung, nhận yêu cầu từ web, trả kết quả.
+
+Frontend (giao diện web):
+Cho phép người dùng upload video, nhập yêu cầu, theo dõi tiến trình, nhận kết quả.
+
+Database (tùy chọn):
+Lưu log, user, lịch sử task nếu cần.
+
+Hạ tầng lưu trữ:
+Chỗ chứa video gốc, kết quả đầu ra (thường là ổ cứng lớn).
+
+3. Yêu cầu phần cứng cụ thể
+A. Cấu hình tối thiểu
+CPU: 8 vCPU trở lên
+
+RAM: Tối thiểu 32 GB
+
+Ổ cứng: SSD 512 GB – 1 TB (tùy lượng video xử lý)
+
+GPU:
+
+Tối thiểu: NVIDIA RTX 3060 12GB (1 card)
+
+Khuyến nghị: RTX 3090 24GB / A5000 / A6000 (xử lý nhanh, đa user)
+
+Lý do: Mô hình như Whisper large-v3-turbo, DiffSinger, các model xử lý video/audio nặng đều cần nhiều VRAM.
+
+Hệ điều hành: Ubuntu 20.04/22.04 (ổn định), cài đặt Python, CUDA, driver NVIDIA đầy đủ.
+
+B. Nếu nhiều người dùng đồng thời
+Thêm GPU:
+
+Càng nhiều user càng cần nhiều GPU hoặc GPU mạnh.
+
+1 card 24GB có thể phục vụ ~2-4 user song song nếu tác vụ phức tạp (transcribe, synthesize, remix video, v.v).
+
+RAM: Nên tăng lên 64GB hoặc hơn nếu chạy nhiều model/multi-process.
+
+4. Chi phí triển khai máy chủ
+A. Phương án thuê cloud server có GPU (khuyến nghị cho người mới)
+Lựa chọn phổ biến:
+AWS EC2 g4dn.xlarge/g5.xlarge
+
+Google Cloud A2-highgpu
+
+Vultr, Paperspace, LambdaLabs, OVH, Hetzner (có thuê server GPU giá tốt hơn)
+
+Ví dụ: AWS EC2 g4dn.2xlarge
+GPU: NVIDIA T4 16GB
+
+vCPU: 8
+
+RAM: 32GB
+
+SSD: 100GB
+
+Giá:
+
+Theo giờ: ~$1/giờ (xấp xỉ 24–30 USD/ngày)
+
+Theo tháng: ~$750–900 USD/tháng (chạy liên tục)
+
+Có thể giảm phí bằng Spot Instance hoặc chỉ bật khi dùng.
+
+Nếu cần GPU mạnh hơn (RTX 3090, A100, v.v.)
+Paperspace: ~1.5–3 USD/giờ (A100, RTX 4090)
+
+LambdaLabs: ~0.99–2.5 USD/giờ
+
+OVH, Hetzner: Chỉ từ 200–400 USD/tháng (RTX 3090, RAM 64GB, NVMe 1TB)
+
+Tính toán chi phí:
+Nhẹ (1–2 user/lượt): GPU T4/3060, chi phí từ 300–700 USD/tháng
+
+Vừa (3–5 user): GPU 3090/4090 hoặc A100, phí từ 700–1500 USD/tháng
+
+Cao (8+ user): Cluster nhiều GPU, phí từ 1500–5000 USD/tháng
+
+Chưa tính phí bandwidth (tải/stream video lớn sẽ tốn thêm phí cloud)
+B. Mua máy chủ vật lý (cho dự án lớn, lâu dài)
+Máy trạm workstation cũ (RTX 3090/4090, RAM 64GB): ~40–70 triệu VNĐ/máy (~1600–2800 USD)
+
+Server doanh nghiệp (A6000, A100): ~200 triệu – 1 tỷ VNĐ trở lên
+
+C. Phí vận hành khác
+Tên miền, bảo mật, backup: ~5–20 USD/tháng
+
+DevOps triển khai (nếu không tự làm): thuê ngoài 10–30 triệu VNĐ (setup, maintain web)
+
+5. Gợi ý công nghệ WebApp + cách triển khai
+Backend:
+
+Sử dụng FastAPI hoặc Flask (Python) làm API trung gian giữa web và các mô hình AI
+
+Xử lý các tác vụ nặng thông qua Celery (background task), tránh nghẽn server khi nhiều user gửi request.
+
+Frontend:
+
+ReactJS, NextJS, hoặc đơn giản là Flask/Streamlit UI cho MVP (prototyping nhanh)
+
+Lưu trữ:
+
+Kết hợp AWS S3 hoặc local disk nếu bảo mật riêng tư.
+
+Cách bảo mật:
+
+Hạn chế upload file độc hại, phân quyền user, SSL, tách biệt môi trường dev/prod.
+
+6. Bảng tóm tắt chi phí cơ bản
+Cấu hình	Số user	Cloud (theo tháng)	Server vật lý (1 lần)
+T4/3060, 32GB RAM	1–2	300–700 USD	~40–50 triệu VNĐ
+3090/4090, 64GB RAM	3–5	700–1500 USD	~70–100 triệu VNĐ
+>A100, 128GB RAM	8+	1500–5000 USD	>200 triệu VNĐ
+
+7. Mẹo tiết kiệm & khởi động nhanh
+Chỉ bật server khi cần xử lý batch lớn, tắt khi không dùng (cloud hourly billing)
+
+Đầu tư máy vật lý nếu xác định vận hành lâu dài, ổn định, không ngại tự vận hành/IT
+
+Tối ưu hoá mã nguồn, phân quyền queue, không cho 1 user “chiếm hết” tài nguyên
+
+8. Kết luận
+VideoAgent rất “ngốn” GPU (vì phải chạy nhiều model AI lớn), càng nhiều user thì càng cần phần cứng mạnh.
+
+Thuê server cloud là giải pháp đơn giản nhất, chi phí tùy số user và cường độ xử lý.
+
+Nếu chỉ thử nghiệm nội bộ hoặc cho 1–2 user, hoàn toàn dùng được GPU 12–16GB.
+
+Nếu chưa có kinh nghiệm DevOps, nên bắt đầu từ cloud, sau quen hãy build server riêng.
+
+Không nên triển khai lên shared hosting/thường, VPS yếu sẽ không đủ tài nguyên chạy model AI!
