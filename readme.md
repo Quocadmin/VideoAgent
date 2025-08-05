@@ -386,7 +386,113 @@ Our work has been significantly enriched by the creative contributions of conten
 <div align="center">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=HKUDS.Open-NotebookLM&style=for-the-badge&color=00d4ff" alt="Visitors">
 </div>
+---------------------------
+Giới thiệu Dự án VideoAgent
+1. VideoAgent là gì?
+VideoAgent là một framework mã nguồn mở giúp bạn tự động hiểu nội dung video, chỉnh sửa video, và sáng tạo lại video bằng công nghệ trí tuệ nhân tạo đa phương thức (AI đa modal).
+Bạn có thể tương tác với hệ thống chỉ bằng ngôn ngữ tự nhiên, không cần kỹ thuật phức tạp, dễ dùng cho cả người mới.
 
+2. VideoAgent làm được gì?
+Các tính năng chính:
+Hiểu video:
+Phân tích, tóm tắt, trích xuất ý chính từ nội dung video (ví dụ: trả lời câu hỏi về video, tóm tắt nội dung video, v.v.).
+
+Chỉnh sửa video:
+Cắt ghép, lắp ráp, làm lại các đoạn video theo yêu cầu chỉ bằng cách nhập mô tả ý tưởng.
+
+Sáng tạo lại video:
+Tạo ra video mới, nội dung sáng tạo dựa trên AI như video meme, video âm nhạc, chế lại kịch bản, v.v.
+
+Trải nghiệm hội thoại tự nhiên:
+Chỉ cần mô tả ý tưởng hoặc yêu cầu bằng tiếng Anh/Tiếng Trung (hoặc ngôn ngữ đã hỗ trợ), hệ thống sẽ tự động hiểu và thực hiện.
+
+Một số ứng dụng nổi bật:
+Chuyển đổi kịch bản hài Anh - Trung và ngược lại
+
+Biến video standup comedy thành meme
+
+Tạo video âm nhạc AI
+
+Tạo video bình luận, bản tin, podcast tóm tắt phim, v.v.
+
+3. Cách hoạt động của VideoAgent
+VideoAgent dùng các mô hình AI mạnh mẽ như Claude, GPT, DeepSeek, Gemini… để:
+
+Phân tích ý định:
+Tự động bóc tách ý định của bạn (dù diễn đạt trực tiếp hay gián tiếp), sau đó xác định công cụ, workflow phù hợp.
+
+Tự lên kế hoạch workflow:
+Dựa vào biểu đồ tác vụ (graph workflow), chọn agent (tác nhân) thích hợp cho từng bước, tự phản hồi & tối ưu quá trình.
+
+Hiểu nội dung đa phương thức:
+Kết hợp phân tích cả hình ảnh, âm thanh, văn bản… Đặc biệt có “Storyboard Agent” giúp phân tích tài nguyên video có sẵn và chia nhỏ yêu cầu thành các truy vấn phù hợp.
+
+4. Dành cho ai?
+Bạn muốn tự động hóa quy trình xử lý video (hiểu – chỉnh sửa – sáng tạo lại) mà không cần kỹ năng code phức tạp.
+
+Tạo nội dung sáng tạo, biến ý tưởng thành video chuyên nghiệp chỉ qua hội thoại.
+
+Phù hợp cho cả người mới, nhà sáng tạo nội dung, nhóm truyền thông, nghiên cứu AI về xử lý video đa modal.
+
+5. Cách cài đặt và sử dụng (Tóm tắt nhanh)
+a. Yêu cầu hệ thống
+Máy có GPU ≥ 8GB (khuyên dùng)
+
+Windows hoặc Linux
+
+b. Các bước cài đặt
+Clone repo
+
+bash
+Sao chép
+Chỉnh sửa
+git clone https://github.com/HKUDS/VideoAgent.git
+Tạo môi trường Python
+
+bash
+Sao chép
+Chỉnh sửa
+conda create --name videoagent python=3.10
+conda activate videoagent
+Cài thư viện
+
+bash
+Sao chép
+Chỉnh sửa
+conda install -y -c conda-forge pynini==2.1.5 ffmpeg
+pip install -r requirements.txt
+Tải các mô hình AI cần thiết
+(CosyVoice, fish-speech, seed-vc, DiffSinger, Whisper, ImageBind, v.v.)
+Mỗi tính năng cần mô hình khác nhau – bạn chỉ cần tải những mô hình cho mục đích bạn dùng (đã có hướng dẫn chi tiết từng bước trong README).
+
+Điền API key cho các mô hình LLM (Claude, GPT, Deepseek, Gemini) trong file cấu hình.
+
+Chạy thử
+
+bash
+Sao chép
+Chỉnh sửa
+python main.py
+Khi chạy, hệ thống sẽ hỏi “User Requirement” – bạn chỉ cần nhập mô tả yêu cầu về video.
+
+Ví dụ:
+"Tạo video meme bằng giọng nói của tôi và ghép cảnh vui nhộn."
+
+"Tóm tắt nội dung chính của video này và trả lời một số câu hỏi."
+
+6. Demo & Tài liệu tham khảo
+Tham khảo video hướng dẫn và demo tại YouTube hoặc Bilibili.
+
+Xem chi tiết các use case trong mục Demos Documentation của repo.
+
+7. Kết luận
+VideoAgent giúp tự động hóa quy trình xử lý video từ hiểu – chỉnh sửa – sáng tạo lại, sử dụng AI tiên tiến, thao tác qua hội thoại tự nhiên.
+
+Thích hợp cho cả người mới bắt đầu lẫn dân chuyên.
+
+Chỉ cần nhập ý tưởng, mọi thứ còn lại hệ thống lo!
+
+--------------------------------------------
 1. Tổng quan Triển khai VideoAgent dưới dạng WebApp
 Mục tiêu:
 Bạn muốn cài đặt VideoAgent trên một máy chủ (server), tạo giao diện web để người dùng upload video, nhập yêu cầu và nhận kết quả (hiểu, chỉnh sửa, tạo video mới...)
